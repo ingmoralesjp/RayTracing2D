@@ -1,0 +1,74 @@
+mkdir -p build-tests
+g++ -std=c++17 -O2 -Wall -Wextra -pedantic \
+	tests/geometry_test.cpp src/Geometry2D.cc src/RayTracer2D.cc src/Propagation2D.cc src/Materials2D.cc src/OsmImporter2D.cc src/GridEvaluator2D.cc src/FrequencySweep2D.cc \
+	-Isrc -o build-tests/geometry_test
+tests/geometry_test.cpp: In function ‘int main()’:
+tests/geometry_test.cpp:35:68: warning: missing initializer for member ‘Wall2D::buildingId’ [-Wmissing-field-initializers]
+   35 |     Wall2D reflector{"reflector", {100, 400}, {800, 400}, "generic"};
+      |                                                                    ^
+tests/geometry_test.cpp:59:63: warning: missing initializer for member ‘Wall2D::buildingId’ [-Wmissing-field-initializers]
+   59 |     Wall2D blocker{"blocker", {450, 80}, {450, 340}, "generic"};
+      |                                                               ^
+In file included from /usr/include/c++/9/cassert:44,
+                 from tests/geometry_test.cpp:9:
+tests/geometry_test.cpp:86:61: warning: missing initializer for member ‘Wall2D::buildingId’ [-Wmissing-field-initializers]
+   86 |     assert(RayTracer2D({{"wall", {2, 0}, {8, 0}, "generic"}}).isBlocked({0, 0}, {10, 0}));
+      |                                                             ^
+tests/geometry_test.cpp:87:64: warning: missing initializer for member ‘Wall2D::buildingId’ [-Wmissing-field-initializers]
+   87 |     assert(!RayTracer2D({{"wall", {10, 0}, {10, 5}, "generic"}}).isBlocked({0, 0}, {10, 0}));
+      |                                                                ^
+tests/geometry_test.cpp: In lambda function:
+tests/geometry_test.cpp:90:88: warning: missing initializer for member ‘Wall2D::buildingId’ [-Wmissing-field-initializers]
+   90 |     assert(throwsInvalidArgument([] { RayTracer2D({{"zero", {1, 1}, {1, 1}, "generic"}}); }));
+      |                                                                                        ^
+tests/geometry_test.cpp: In lambda function:
+tests/geometry_test.cpp:93:58: warning: missing initializer for member ‘Wall2D::buildingId’ [-Wmissing-field-initializers]
+   93 |                      {"same", {0, 1}, {1, 1}, "generic"}});
+      |                                                          ^
+tests/geometry_test.cpp:93:58: warning: missing initializer for member ‘Wall2D::buildingId’ [-Wmissing-field-initializers]
+tests/geometry_test.cpp: In function ‘int main()’:
+tests/geometry_test.cpp:105:62: warning: missing initializer for member ‘Wall2D::buildingId’ [-Wmissing-field-initializers]
+  105 |     Wall2D ceiling{"ceiling", {0, 400}, {900, 400}, "generic"};
+      |                                                              ^
+tests/geometry_test.cpp:106:54: warning: missing initializer for member ‘Wall2D::buildingId’ [-Wmissing-field-initializers]
+  106 |     Wall2D floor{"floor", {0, 0}, {900, 0}, "generic"};
+      |                                                      ^
+tests/geometry_test.cpp:141:89: warning: missing initializer for member ‘Wall2D::buildingId’ [-Wmissing-field-initializers]
+  141 |     auto materialTrace = RayTracer2D({{"reflector", {100, 400}, {800, 400}, "concrete"}})
+      |                                                                                         ^
+tests/geometry_test.cpp:243:68: warning: missing initializer for member ‘Wall2D::buildingId’ [-Wmissing-field-initializers]
+  243 |     Wall2D gridBlocker{"gridBlocker", {15, -5}, {15, 5}, "concrete"};
+      |                                                                    ^
+tests/geometry_test.cpp:380:63: warning: missing initializer for member ‘Wall2D::buildingId’ [-Wmissing-field-initializers]
+  380 |     Wall2D farWall{"far", {10000, 0}, {10000, 1000}, "generic"};
+      |                                                               ^
+tests/geometry_test.cpp:407:63: warning: missing initializer for member ‘Wall2D::buildingId’ [-Wmissing-field-initializers]
+  407 |     Wall2D cornerWall1{"corner_w1", {5, 0}, {5, 3}, "concrete"};
+      |                                                               ^
+tests/geometry_test.cpp:408:63: warning: missing initializer for member ‘Wall2D::buildingId’ [-Wmissing-field-initializers]
+  408 |     Wall2D cornerWall2{"corner_w2", {5, 0}, {8, 0}, "concrete"};
+      |                                                               ^
+./build-tests/geometry_test
+All RayTracing2D v1.6 Thesis Release core tests passed (25 groups).
+Known reflection point: (450, 400) m
+FSPL(1 km, 916 MHz): 91.6857 dB
+mkdir -p build-tests
+g++ -std=c++17 -O2 -Wall -Wextra -pedantic tests/corrections_test.cpp src/Geometry2D.cc src/RayTracer2D.cc src/Propagation2D.cc src/Materials2D.cc src/OsmImporter2D.cc src/GridEvaluator2D.cc -Isrc -o build-tests/corrections_test
+tests/corrections_test.cpp: In function ‘int main()’:
+tests/corrections_test.cpp:31:77: warning: missing initializer for member ‘Wall2D::buildingId’ [-Wmissing-field-initializers]
+   31 |     RayTracer2D twoRay({{"screen",{1836.748,462},{1856.748,462},"concrete"}});
+      |                                                                             ^
+tests/corrections_test.cpp:77:58: warning: missing initializer for member ‘Wall2D::buildingId’ [-Wmissing-field-initializers]
+   77 |     RayTracer2D knife({{"knife",{0,-2},{0,2},"concrete"}});
+      |                                                          ^
+./build-tests/corrections_test
+PASS 1 independent lossy TE phase regression
+PASS 2 interior RX; PASS 3 interior TX
+PASS 4 exterior D1; PASS 5 crossing interiors
+PASS 6 unique corners and wall ordering
+PASS 7 facade/vertex tolerances and translation
+PASS 8 concave polygon domain and chords
+PASS 9 isolated knife-edge compatibility
+PASS 10 unsupported polygon failures explicit
+PASS 11 explicit grid domain masks
+ALL 11 correction test groups passed

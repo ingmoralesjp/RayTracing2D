@@ -1,0 +1,21 @@
+{
+  "versions": {
+    "sionna-rt": "2.2.0",
+    "mitsuba": "3.9.1",
+    "drjit": "1.5.0",
+    "numpy": "2.5.4"
+  },
+  "variant": "llvm_ad_mono_polarized",
+  "samples_per_src": 1000000,
+  "seed": 42,
+  "batch_seconds": 0.8954701898619533,
+  "max_depth": 2,
+  "refraction": false,
+  "diffraction": false,
+  "wall_thickness_for_halfspace_limit_m": 10,
+  "permittivity": 5.24,
+  "conductivity_sm": 0.09163116512581294,
+  "receivers": 79,
+  "walls": 1218,
+  "note": "Float32 tracing; common vertical-facade scene, no ground/roofs, matched V/TE polarization. Timing includes first JIT compilation."
+}

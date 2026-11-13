@@ -1,0 +1,53 @@
+{
+  "grid_50m": {
+    "all": 77,
+    "exterior": 57,
+    "excluded": 20,
+    "finite": 41,
+    "paths": 122
+  },
+  "grid_25m": {
+    "all": 273,
+    "exterior": 192,
+    "excluded": 81,
+    "finite": 151,
+    "paths": 460
+  },
+  "grid_10m": {
+    "all": 1581,
+    "exterior": 1106,
+    "excluded": 475,
+    "finite": 877,
+    "paths": 2811
+  },
+  "ablation_exterior_finite": [
+    106,
+    114,
+    122,
+    151
+  ],
+  "reference_power_dbm": -69.337401109353,
+  "MATLAB": {
+    "equal_counts": 78,
+    "pairs": 32,
+    "power_MAE_dB": 0.002279569496563383
+  },
+  "Sionna_seed42": {
+    "equal_counts": 79,
+    "pairs": 33,
+    "power_MAE_dB": 0.0027925447647800875
+  },
+  "Sionna_seed73": {
+    "equal_counts": 79,
+    "pairs": 33,
+    "power_MAE_dB": 0.002834189657963896
+  },
+  "directed_study": {
+    "positions": 63,
+    "independent_valid": 46,
+    "obstructed_or_contact": 17,
+    "MATLAB_valid_found": 7,
+    "Sionna_near_contact_additional": 8
+  },
+  "subareas": "raw results agree with summary"
+}

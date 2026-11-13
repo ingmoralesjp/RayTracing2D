@@ -1,0 +1,49 @@
+{
+  "engine": "Sionna",
+  "scene": "B_e27_flip",
+  "receivers": 24,
+  "rx_file": "/home/juan/omnetpp-6.0pre11/samples/flora/experiments/raytracing-m50-diagnostic-20261112/inputs/receivers_directed.csv",
+  "versions": {
+    "sionna-rt": "2.2.0",
+    "mitsuba": "3.9.1",
+    "drjit": "1.5.0",
+    "numpy": "2.5.4"
+  },
+  "variant": "llvm_ad_mono_polarized",
+  "seconds": 0.24543869867920876,
+  "samples_per_src": 1000000,
+  "seed": 42,
+  "API": "Paths.vertices/primitives/objects/interactions; primitive -> archived triangle -> wall_id",
+  "tensor_shapes": {
+    "a": [
+      24,
+      1,
+      1,
+      1,
+      2
+    ],
+    "vertices": [
+      2,
+      24,
+      1,
+      2,
+      3
+    ],
+    "primitives": [
+      2,
+      24,
+      1,
+      2
+    ]
+  },
+  "frequency_hz": 2400000000.0,
+  "tx_dbm": 14,
+  "polarization": "V/TE",
+  "eps_r": 5.24,
+  "sigma_Sm": 0.09163116512581294,
+  "thickness_halfspace_m": 10,
+  "max_path_m": 500,
+  "max_depth": 2,
+  "diffraction": false,
+  "refraction": false
+}

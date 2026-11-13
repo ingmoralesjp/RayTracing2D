@@ -1,0 +1,14 @@
+[
+  {
+    "symbol": "comm.internal.geometry.viewshed",
+    "installed_path": "/home/juan/MatLab/toolbox/shared/channel/raytracing/+comm/+internal/+geometry/viewshed.m"
+  },
+  {
+    "symbol": "comm.internal.geometry.calcImageReflectionPath",
+    "installed_path": "/home/juan/MatLab/toolbox/shared/channel/raytracing/+comm/+internal/+geometry/calcImageReflectionPath.m"
+  },
+  {
+    "symbol": "comm.internal.geometry.firstIntersect",
+    "installed_path": "/home/juan/MatLab/toolbox/shared/channel/raytracing/+comm/+internal/+geometry/firstIntersect.m"
+  }
+]

@@ -1,0 +1,3 @@
+path_id,type,reflection_order,diffraction_order,distance_m,delay_s,path_loss_db,phase_rad,received_power_dbm,reflection_magnitude,reflection_phase_rad,material_model_in_range,diffraction_v,diffraction_loss_db,interactions,points
+LOS,LOS,0,0,321.385761203,1.07202750645e-06,90.1925406902,0.841849532532,-76.1925406902,1,0,1,0,0,"","(1838.75:465)->(1775:150)"
+REFL1_osm_419317355_e30,REFLECTION,1,0,321.466337625,1.07229628047e-06,94.542684606,6.20958927385,-80.542684606,0.606180099925,3.13757107372,1,0,0,"REFLECTION@osm_419317355_e30@glass@incDeg=54.3487","(1838.75:465)->(1838.63:464.985)->(1775:150)"

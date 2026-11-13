@@ -1,0 +1,27 @@
+make: se entra en el directorio '/home/juan/omnetpp-6.0pre11/samples/flora/experiments/raytracing-m50-diagnostic-20261112/source'
+mkdir -p build-tests
+g++ -std=c++17 -O2 -Wall -Wextra -pedantic tests/corrections_test.cpp src/Geometry2D.cc src/RayTracer2D.cc src/Propagation2D.cc src/Materials2D.cc src/OsmImporter2D.cc src/GridEvaluator2D.cc -Isrc -o build-tests/corrections_test
+./build-tests/corrections_test
+PASS 1 independent lossy TE phase regression
+PASS 2 interior RX; PASS 3 interior TX
+PASS 4 exterior D1; PASS 5 crossing interiors
+PASS 6 unique corners and wall ordering
+PASS 7 facade/vertex tolerances and translation
+PASS 8 concave polygon domain and chords
+PASS 9 isolated knife-edge compatibility
+PASS 10 unsupported polygon failures explicit
+PASS 11 explicit grid domain masks
+ALL 11 correction test groups passed
+mkdir -p build-tests
+g++ -std=c++17 -O2 -Wall -Wextra -pedantic tests/m50_053_test.cpp src/Geometry2D.cc src/RayTracer2D.cc src/Propagation2D.cc src/Materials2D.cc src/OsmImporter2D.cc -Isrc -o build-tests/m50_053_test
+./build-tests/m50_053_test
+PASS M50_053: full closed-building map, exterior TX/RX, exact facade sequence, valid specular legs, length=126.75252633235601 m, power=-77.160835896418774 dBm; +/-0.1 m y controls passed
+mkdir -p build-tests
+g++ -std=c++17 -O2 -Wall -Wextra -pedantic \
+	tests/geometry_test.cpp src/Geometry2D.cc src/RayTracer2D.cc src/Propagation2D.cc src/Materials2D.cc src/OsmImporter2D.cc src/GridEvaluator2D.cc src/FrequencySweep2D.cc \
+	-Isrc -o build-tests/geometry_test
+./build-tests/geometry_test
+All RayTracing2D v1.6 Thesis Release core tests passed (25 groups).
+Known reflection point: (450, 400) m
+FSPL(1 km, 916 MHz): 91.6857 dB
+make: se sale del directorio '/home/juan/omnetpp-6.0pre11/samples/flora/experiments/raytracing-m50-diagnostic-20261112/source'

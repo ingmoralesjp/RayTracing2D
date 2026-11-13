@@ -1,0 +1,11 @@
+N_e30_reverse: 17 RX; target present 0
+N_outward: 17 RX; target present 0
+{Subscripted assignment between dissimilar structures.
+
+Error in matlab_visibility_diagnostic (line 29)
+    meta(end+1)=m; %#ok<SAGROW>
+    ^^^^^^^^^^^
+Error in run (line 112)
+evalin('caller', strcat(scriptStem, ';'));
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+} 

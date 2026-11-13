@@ -1,0 +1,22 @@
+RayTracing2D v1.5.1 - OSM preflight
+file: simulations/data/student/zacatecas_student.osm
+nodes stored in XML: 25214
+declared <bounds>:
+  latitude:  22.756950000 .. 22.779780000
+  longitude: -102.600250000 .. -102.559600000
+all-node extent (may include dependency nodes outside the map):
+  latitude:  22.718941300 .. 22.978366000
+  longitude: -102.693620300 .. -102.517239200
+supported-building extent:
+  latitude:  22.756605700 .. 22.779412500
+  longitude: -102.600372900 .. -102.562395100
+recommended origin source: declared <bounds> south-west corner
+osmOriginLatDeg = 22.756950000
+osmOriginLonDeg = -102.600250000
+imported-building local extent: X=-12.602 .. 3881.603 m, Y=-38.284 .. 2497.719 m
+local axis contract: +X=east, +Y=north; Qtenv rendering is transformed separately
+building ways: 2721
+closed building ways supported: 2721
+building multipolygon relations NOT supported: 0
+materials:
+  <sin etiqueta>: 2721

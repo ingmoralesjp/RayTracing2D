@@ -1,0 +1,610 @@
+[
+  {
+    "rx_id": "M50_053",
+    "path_index": 0,
+    "distance_m": 126.75252289578016,
+    "path_loss_db": 91.160834517133509,
+    "phase_rad": 4.6194668675059205,
+    "power_dbm": -77.160834517133509,
+    "surface_sequence": [
+      "osm_556278505_e0",
+      "osm_419317355_e30"
+    ],
+    "interaction_positions": [
+      [
+        1859.1589655855789,
+        470.27233708514336,
+        1.5
+      ],
+      [
+        1862.9203232272021,
+        487.5788105660244,
+        1.5
+      ]
+    ],
+    "interaction_types": [
+      "Reflection",
+      "Reflection"
+    ],
+    "facade_mapping_ambiguity": false,
+    "mapping_min_distance_m": [
+      1.3290836284993141E-6,
+      1.7891085866542897E-6
+    ],
+    "mapping_second_distance_m": [
+      10.005306552590049,
+      9.2872547926401037
+    ],
+    "target": true
+  },
+  {
+    "rx_id": "x_-0.100",
+    "path_index": 0,
+    "distance_m": 126.65353297386712,
+    "path_loss_db": 91.152543453736783,
+    "phase_rad": 5.9234183103508329,
+    "power_dbm": -77.152543453736783,
+    "surface_sequence": [
+      "osm_556278505_e0",
+      "osm_419317355_e30"
+    ],
+    "interaction_positions": [
+      [
+        1859.1620666314839,
+        470.27555945615222,
+        1.5
+      ],
+      [
+        1862.9258620944424,
+        487.5839701650861,
+        1.5
+      ]
+    ],
+    "interaction_types": [
+      "Reflection",
+      "Reflection"
+    ],
+    "facade_mapping_ambiguity": false,
+    "mapping_min_distance_m": [
+      4.23728259429948E-7,
+      3.707585350848311E-6
+    ],
+    "mapping_second_distance_m": [
+      10.005305647234682,
+      9.28684000935414
+    ],
+    "target": true
+  },
+  {
+    "rx_id": "x_-0.050",
+    "path_index": 0,
+    "distance_m": 126.70303154967814,
+    "path_loss_db": 91.156691682737289,
+    "phase_rad": 2.1300317790526009,
+    "power_dbm": -77.156691682737289,
+    "surface_sequence": [
+      "osm_556278505_e0",
+      "osm_419317355_e30"
+    ],
+    "interaction_positions": [
+      [
+        1859.1605112310208,
+        470.27394360602835,
+        1.5
+      ],
+      [
+        1862.9230851165264,
+        487.58138826063276,
+        1.5
+      ]
+    ],
+    "interaction_types": [
+      "Reflection",
+      "Reflection"
+    ],
+    "facade_mapping_ambiguity": false,
+    "mapping_min_distance_m": [
+      1.1577143974927436E-6,
+      4.5562609904636735E-6
+    ],
+    "mapping_second_distance_m": [
+      10.005306381220819,
+      9.2870513787600188
+    ],
+    "target": true
+  },
+  {
+    "rx_id": "x_-0.010",
+    "path_index": 0,
+    "distance_m": 126.74262439025529,
+    "path_loss_db": 91.160005907382924,
+    "phase_rad": 4.1215679624972239,
+    "power_dbm": -77.160005907382924,
+    "surface_sequence": [
+      "osm_556278505_e0",
+      "osm_419317355_e30"
+    ],
+    "interaction_positions": [
+      [
+        1859.1592754075332,
+        470.27265783346593,
+        1.5
+      ],
+      [
+        1862.9208771170081,
+        487.57932615627772,
+        1.5
+      ]
+    ],
+    "interaction_types": [
+      "Reflection",
+      "Reflection"
+    ],
+    "facade_mapping_ambiguity": false,
+    "mapping_min_distance_m": [
+      4.10118999448649E-7,
+      1.5122015494952584E-6
+    ],
+    "mapping_second_distance_m": [
+      10.005305633625422,
+      9.2872130558225052
+    ],
+    "target": true
+  },
+  {
+    "rx_id": "x_-0.001",
+    "path_index": 0,
+    "distance_m": 126.75153411119902,
+    "path_loss_db": 91.160751959793032,
+    "phase_rad": 4.5697305976552656,
+    "power_dbm": -77.160751959793032,
+    "surface_sequence": [
+      "osm_556278505_e0",
+      "osm_419317355_e30"
+    ],
+    "interaction_positions": [
+      [
+        1859.1589964769912,
+        470.27236691037069,
+        1.5
+      ],
+      [
+        1862.9203793715074,
+        487.57886222909337,
+        1.5
+      ]
+    ],
+    "interaction_types": [
+      "Reflection",
+      "Reflection"
+    ],
+    "facade_mapping_ambiguity": false,
+    "mapping_min_distance_m": [
+      2.5696233189436862E-7,
+      2.1996724423126171E-6
+    ],
+    "mapping_second_distance_m": [
+      10.005304966544092,
+      9.2872501467397424
+    ],
+    "target": true
+  },
+  {
+    "rx_id": "x_+0.001",
+    "path_index": 0,
+    "distance_m": 126.75351988859335,
+    "path_loss_db": 91.160920378971724,
+    "phase_rad": 4.6696160375347375,
+    "power_dbm": -77.160920378971724,
+    "surface_sequence": [
+      "osm_556278505_e0",
+      "osm_419317355_e30"
+    ],
+    "interaction_positions": [
+      [
+        1859.1589283066367,
+        470.27229617073675,
+        1.5
+      ],
+      [
+        1862.9202595299455,
+        487.57875782642196,
+        1.5
+      ]
+    ],
+    "interaction_types": [
+      "Reflection",
+      "Reflection"
+    ],
+    "facade_mapping_ambiguity": false,
+    "mapping_min_distance_m": [
+      1.6924956084102066E-7,
+      2.9773689451306192E-6
+    ],
+    "mapping_second_distance_m": [
+      10.00530505425686,
+      9.2872641354886039
+    ],
+    "target": true
+  },
+  {
+    "rx_id": "x_+0.010",
+    "path_index": 0,
+    "distance_m": 126.76242964109196,
+    "path_loss_db": 91.161666368472808,
+    "phase_rad": 5.1177802597983231,
+    "power_dbm": -77.161666368472808,
+    "surface_sequence": [
+      "osm_556278505_e0",
+      "osm_419317355_e30"
+    ],
+    "interaction_positions": [
+      [
+        1859.158649384894,
+        470.27200532916333,
+        1.5
+      ],
+      [
+        1862.9197617837619,
+        487.57829398056487,
+        1.5
+      ]
+    ],
+    "interaction_types": [
+      "Reflection",
+      "Reflection"
+    ],
+    "facade_mapping_ambiguity": false,
+    "mapping_min_distance_m": [
+      7.8615610134131233E-7,
+      2.349911661812117E-6
+    ],
+    "mapping_second_distance_m": [
+      10.00530443735032,
+      9.2873012832793584
+    ],
+    "target": true
+  },
+  {
+    "rx_id": "x_+0.050",
+    "path_index": 0,
+    "distance_m": 126.80202219284007,
+    "path_loss_db": 91.164978717061,
+    "phase_rad": 0.82611660273365572,
+    "power_dbm": -77.164978717061,
+    "surface_sequence": [
+      "osm_556278505_e0",
+      "osm_419317355_e30"
+    ],
+    "interaction_positions": [
+      [
+        1859.1574141773206,
+        470.27072339402116,
+        1.5
+      ],
+      [
+        1862.9175537680155,
+        487.57623384547855,
+        1.5
+      ]
+    ],
+    "interaction_types": [
+      "Reflection",
+      "Reflection"
+    ],
+    "facade_mapping_ambiguity": false,
+    "mapping_min_distance_m": [
+      6.8272461385332785E-7,
+      2.2655813111195668E-6
+    ],
+    "mapping_second_distance_m": [
+      10.005305906231037,
+      9.2874643372647547
+    ],
+    "target": true
+  },
+  {
+    "rx_id": "x_+0.100",
+    "path_index": 0,
+    "distance_m": 126.85152944297423,
+    "path_loss_db": 91.169124283913789,
+    "phase_rad": 3.3163517055531528,
+    "power_dbm": -77.169124283913789,
+    "surface_sequence": [
+      "osm_556278505_e0",
+      "osm_419317355_e30"
+    ],
+    "interaction_positions": [
+      [
+        1859.1558570076866,
+        470.26910253179915,
+        1.5
+      ],
+      [
+        1862.9147767389813,
+        487.57365809783374,
+        1.5
+      ]
+    ],
+    "interaction_types": [
+      "Reflection",
+      "Reflection"
+    ],
+    "facade_mapping_ambiguity": false,
+    "mapping_min_distance_m": [
+      7.829990619788652E-7,
+      3.1259824541967961E-6
+    ],
+    "mapping_second_distance_m": [
+      10.005304440507361,
+      9.2876800118182654
+    ],
+    "target": true
+  },
+  {
+    "rx_id": "y_-0.100",
+    "path_index": 0,
+    "distance_m": 126.73843791221822,
+    "path_loss_db": 91.17042706155766,
+    "phase_rad": 3.9110795923931931,
+    "power_dbm": -77.17042706155766,
+    "surface_sequence": [
+      "osm_556278505_e0",
+      "osm_419317355_e30"
+    ],
+    "interaction_positions": [
+      [
+        1859.1372258321574,
+        470.24973803403685,
+        1.5
+      ],
+      [
+        1862.8815048617475,
+        487.54270032394305,
+        1.5
+      ]
+    ],
+    "interaction_types": [
+      "Reflection",
+      "Reflection"
+    ],
+    "facade_mapping_ambiguity": false,
+    "mapping_min_distance_m": [
+      1.6078199116111739E-6,
+      3.64569481001006E-6
+    ],
+    "mapping_second_distance_m": [
+      10.005306831326333,
+      9.2901964585658252
+    ],
+    "target": true
+  },
+  {
+    "rx_id": "y_-0.050",
+    "path_index": 0,
+    "distance_m": 126.74547406350769,
+    "path_loss_db": 91.165631979810726,
+    "phase_rad": 4.2649543171944373,
+    "power_dbm": -77.165631979810726,
+    "surface_sequence": [
+      "osm_556278505_e0",
+      "osm_419317355_e30"
+    ],
+    "interaction_positions": [
+      [
+        1859.1480867379785,
+        470.26102665479868,
+        1.5
+      ],
+      [
+        1862.9009009264557,
+        487.56074584520695,
+        1.5
+      ]
+    ],
+    "interaction_types": [
+      "Reflection",
+      "Reflection"
+    ],
+    "facade_mapping_ambiguity": false,
+    "mapping_min_distance_m": [
+      3.7368210844606096E-7,
+      8.1203172680936826E-7
+    ],
+    "mapping_second_distance_m": [
+      10.00530559718853,
+      9.2887284243155168
+    ],
+    "target": true
+  },
+  {
+    "rx_id": "y_-0.010",
+    "path_index": 0,
+    "distance_m": 126.75111088379278,
+    "path_loss_db": 91.161793698606346,
+    "phase_rad": 4.5484514054094092,
+    "power_dbm": -77.161793698606346,
+    "surface_sequence": [
+      "osm_556278505_e0",
+      "osm_419317355_e30"
+    ],
+    "interaction_positions": [
+      [
+        1859.1567893697347,
+        470.27007487805196,
+        1.5
+      ],
+      [
+        1862.9164378773969,
+        487.57519625678106,
+        1.5
+      ]
+    ],
+    "interaction_types": [
+      "Reflection",
+      "Reflection"
+    ],
+    "facade_mapping_ambiguity": false,
+    "mapping_min_distance_m": [
+      1.3757600707777205E-6,
+      1.9872908731563723E-6
+    ],
+    "mapping_second_distance_m": [
+      10.005306599266493,
+      9.2875492137699265
+    ],
+    "target": true
+  },
+  {
+    "rx_id": "y_-0.001",
+    "path_index": 0,
+    "distance_m": 126.7523842118663,
+    "path_loss_db": 91.160931511158026,
+    "phase_rad": 4.612491949273803,
+    "power_dbm": -77.160931511158026,
+    "surface_sequence": [
+      "osm_556278505_e0",
+      "osm_419317355_e30"
+    ],
+    "interaction_positions": [
+      [
+        1859.158745675205,
+        470.272107696863,
+        1.5
+      ],
+      [
+        1862.9199316510312,
+        487.57844867345693,
+        1.5
+      ]
+    ],
+    "interaction_types": [
+      "Reflection",
+      "Reflection"
+    ],
+    "facade_mapping_ambiguity": false,
+    "mapping_min_distance_m": [
+      7.8726930130732165E-7,
+      7.5653337307686625E-8
+    ],
+    "mapping_second_distance_m": [
+      10.005306010775723,
+      9.2872861064411687
+    ],
+    "target": true
+  },
+  {
+    "rx_id": "y_+0.001",
+    "path_index": 0,
+    "distance_m": 126.75266368476353,
+    "path_loss_db": 91.160738224706549,
+    "phase_rad": 4.6265476761734448,
+    "power_dbm": -77.160738224706549,
+    "surface_sequence": [
+      "osm_556278505_e0",
+      "osm_419317355_e30"
+    ],
+    "interaction_positions": [
+      [
+        1859.1591846896627,
+        470.2725627538739,
+        1.5
+      ],
+      [
+        1862.9207148078121,
+        487.57917246546629,
+        1.5
+      ]
+    ],
+    "interaction_types": [
+      "Reflection",
+      "Reflection"
+    ],
+    "facade_mapping_ambiguity": false,
+    "mapping_min_distance_m": [
+      1.2666203718407196E-7,
+      3.5005538032745058E-6
+    ],
+    "mapping_second_distance_m": [
+      10.005305096844385,
+      9.28722348040556
+    ],
+    "target": true
+  },
+  {
+    "rx_id": "y_+0.010",
+    "path_index": 0,
+    "distance_m": 126.75393264825716,
+    "path_loss_db": 91.159873799544755,
+    "phase_rad": 4.6903686635057369,
+    "power_dbm": -77.159873799544755,
+    "surface_sequence": [
+      "osm_556278505_e0",
+      "osm_419317355_e30"
+    ],
+    "interaction_positions": [
+      [
+        1859.1611465488372,
+        470.27460187005943,
+        1.5
+      ],
+      [
+        1862.9242165744865,
+        487.582426635945,
+        1.5
+      ]
+    ],
+    "interaction_types": [
+      "Reflection",
+      "Reflection"
+    ],
+    "facade_mapping_ambiguity": false,
+    "mapping_min_distance_m": [
+      3.51847566702848E-7,
+      5.7486625159417933E-6
+    ],
+    "mapping_second_distance_m": [
+      10.005304871658856,
+      9.28695582849282
+    ],
+    "target": true
+  },
+  {
+    "rx_id": "y_+0.050",
+    "path_index": 0,
+    "distance_m": 126.75958967749754,
+    "path_loss_db": 91.156036440373626,
+    "phase_rad": 4.9748822606677408,
+    "power_dbm": -77.156036440373626,
+    "surface_sequence": [
+      "osm_556278505_e0",
+      "osm_419317355_e30"
+    ],
+    "interaction_positions": [
+      [
+        1859.169860355425,
+        470.28366003682731,
+        1.5
+      ],
+      [
+        1862.9397717485053,
+        487.59689451554311,
+        1.5
+      ]
+    ],
+    "interaction_types": [
+      "Reflection",
+      "Reflection"
+    ],
+    "facade_mapping_ambiguity": false,
+    "mapping_min_distance_m": [
+      5.097609632906849E-7,
+      6.54503923880032E-6
+    ],
+    "mapping_second_distance_m": [
+      10.005304713745458,
+      9.285775594903722
+    ],
+    "target": true
+  }
+]

@@ -1,0 +1,9 @@
+config,receivers,independent_domain_matches,excluded_paths_zero,excluded_powers_nan
+Thesis_A10_LoS_25m,273,True,True,True
+Thesis_A11_LoS_R1_25m,273,True,True,True
+Thesis_D00_Find_NLoS_D1,273,True,True,True
+Thesis_A12_FULL_25m,273,True,True,True
+Thesis_M50_FULL_50m,77,True,True,True
+Thesis_M25_FULL_25m,273,True,True,True
+Thesis_M10_FULL_10m,1581,True,True,True
+Review_E4_C_R1R2,273,True,True,True

@@ -1,0 +1,24 @@
+{
+  "package": "2.0.0",
+  "F": "1.6.1-exterior-domain",
+  "H": "1.6.0-thesis-release",
+  "P": "1.6.0-thesis-release+phase-candidate1",
+  "original_framework_sha256": "38395f43a3dca8a021225e9575e719b42d69ed140afdcd51acf80a8c4cf7e2e0",
+  "original_paper_sha256": "d3bbb36dbdbb8e0265f22a7c3c8894b0c287c7e69787250f836ef8ccbc256335",
+  "OSM_sha256": "8b567037e768eb1d4a2bd6a0bd9cca17987fa4a9e251d1882ef1a36ff3ea675c",
+  "INI_sha256": "c05e38b29d7a24cc1068bc2ec4beebe23476fdb01bdd83b736077f9dcf71d005",
+  "native_binary_sha256": "048a9e901acbde50dd6fa7b8d0978144065098a20c726791d4608c81662d7d06",
+  "probe_sha256": "323b32bfaaa96c6301ed339880b65d6c843e58692f42acd13a73214cefb4719e",
+  "phase_fixture": {
+    "H_dBm": -47.54760821078779,
+    "P_F_dBm": -47.71702964700185
+  },
+  "evidence_types": {
+    "H": "verified archived reuse",
+    "P": "verified archived reuse",
+    "F": "new execution",
+    "masks_metrics_figures": "recalculated",
+    "Sionna_MATLAB": "new executions"
+  },
+  "external_runtime_bundled": false
+}

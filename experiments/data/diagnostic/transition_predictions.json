@@ -1,0 +1,18 @@
+{
+  "archived_model_physical_vertex_tangency_offsets_m": {
+    "y": "0.059290189252420115733195403017862651351421732215385418385267",
+    "x": "-0.414285987120504514016311906434743284055599588100449182093143"
+  },
+  "MATLAB_relevant_triangle_incenter_vertex_tangency_y_offset_m": -1.3062029466235003,
+  "physical_vertex_xy": [
+    1905.8410179701343,
+    493.73951476082743
+  ],
+  "candidate_incenter_xyz": [
+    1864.5650423717354,
+    489.10868258094314,
+    9.253938053575029
+  ],
+  "precision": "60-digit Decimal physical roots; float64 incenter prediction; not survey accuracy or an assumed vendor tolerance",
+  "new_positions": 22
+}

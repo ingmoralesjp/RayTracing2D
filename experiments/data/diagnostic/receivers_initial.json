@@ -1,0 +1,1229 @@
+{
+  "precision_decimal_digits": 60,
+  "geometry_input": "archived metric endpoints as exact 17-digit decimal coordinates; no RT2D predicates",
+  "tolerance_m": "1E-8",
+  "power_method": "independent TE Fresnel magnitudes and free-space spherical spreading",
+  "positions": [
+    {
+      "rx_id": "M50_053",
+      "rx_x": 1950.0,
+      "rx_y": 500.0,
+      "target_surface_sequence": [
+        "osm_556278505_e0",
+        "osm_419317355_e30"
+      ],
+      "candidate_points": [
+        [
+          1838.748,
+          465.0
+        ],
+        [
+          1859.1589629365653,
+          470.2723324142415
+        ],
+        [
+          1862.9203201245377,
+          487.5788101234555
+        ],
+        [
+          1950.0,
+          500.0
+        ]
+      ],
+      "tx_domain": "exterior",
+      "rx_domain": "exterior",
+      "independently_valid": true,
+      "distance_m": 126.75252633235624,
+      "distance_decimal_m": "126.752526332356238236554109868076464765704780468804327545077",
+      "individual_power_dbm": -77.16083589649732,
+      "reflections": [
+        {
+          "wall_id": "osm_556278505_e0",
+          "point": [
+            1859.1589629365653,
+            470.2723324142415
+          ],
+          "u": 0.5918381274845985,
+          "finite_facade": true,
+          "on_line_distance_m": 2e-57,
+          "specular_unit_vector_residual": 2.8240750698237466e-58
+        },
+        {
+          "wall_id": "osm_419317355_e30",
+          "point": [
+            1862.9203201245377,
+            487.5788101234555
+          ],
+          "u": 0.3086959981887756,
+          "finite_facade": true,
+          "on_line_distance_m": 2e-57,
+          "specular_unit_vector_residual": 3.317890896337611e-58
+        }
+      ],
+      "nonendpoint_facade_hits": [],
+      "interior_intervals": [],
+      "boundary_partition_counts": [
+        2,
+        2,
+        2
+      ],
+      "clearance_e27_m": 0.038040107877970165,
+      "clearance_e28_m": 0.038040107877970165,
+      "API_contact_roundoff_facade_hits": [],
+      "API_contact_roundoff_interior_intervals": [],
+      "API_contact_tolerance_m": 1e-08,
+      "specular_tolerance_unit_vector": 1e-40
+    },
+    {
+      "rx_id": "x_-0.100",
+      "rx_x": 1949.9,
+      "rx_y": 500.0,
+      "target_surface_sequence": [
+        "osm_556278505_e0",
+        "osm_419317355_e30"
+      ],
+      "candidate_points": [
+        [
+          1838.748,
+          465.0
+        ],
+        [
+          1859.1620708350633,
+          470.27556321475686
+        ],
+        [
+          1862.9258685250513,
+          487.58397108309066
+        ],
+        [
+          1949.9,
+          500.0
+        ]
+      ],
+      "tx_domain": "exterior",
+      "rx_domain": "exterior",
+      "independently_valid": true,
+      "distance_m": 126.65352918585651,
+      "distance_decimal_m": "126.653529185856517639777928330154994810584743306297879079699",
+      "individual_power_dbm": -77.15254170935218,
+      "reflections": [
+        {
+          "wall_id": "osm_556278505_e0",
+          "point": [
+            1859.1620708350633,
+            470.27556321475686
+          ],
+          "u": 0.5916773347510854,
+          "finite_facade": true,
+          "on_line_distance_m": 1e-57,
+          "specular_unit_vector_residual": 4.143669871020132e-59
+        },
+        {
+          "wall_id": "osm_419317355_e30",
+          "point": [
+            1862.9258685250513,
+            487.58397108309066
+          ],
+          "u": 0.3085659882140908,
+          "finite_facade": true,
+          "on_line_distance_m": 1e-57,
+          "specular_unit_vector_residual": 5.5009090157900265e-59
+        }
+      ],
+      "nonendpoint_facade_hits": [],
+      "interior_intervals": [],
+      "boundary_partition_counts": [
+        3,
+        3,
+        2
+      ],
+      "clearance_e27_m": 0.028880575429401395,
+      "clearance_e28_m": 0.028880575429401395,
+      "API_contact_roundoff_facade_hits": [],
+      "API_contact_roundoff_interior_intervals": [],
+      "API_contact_tolerance_m": 1e-08,
+      "specular_tolerance_unit_vector": 1e-40
+    },
+    {
+      "rx_id": "x_-0.050",
+      "rx_x": 1949.95,
+      "rx_y": 500.0,
+      "target_surface_sequence": [
+        "osm_556278505_e0",
+        "osm_419317355_e30"
+      ],
+      "candidate_points": [
+        [
+          1838.748,
+          465.0
+        ],
+        [
+          1859.1605161380592,
+          470.2739470371739
+        ],
+        [
+          1862.9230930185465,
+          487.58138938823964
+        ],
+        [
+          1949.95,
+          500.0
+        ]
+      ],
+      "tx_domain": "exterior",
+      "rx_domain": "exterior",
+      "independently_valid": true,
+      "distance_m": 126.70302756222377,
+      "distance_decimal_m": "126.703027562223765307026718496401288475684170396727021250802",
+      "individual_power_dbm": -77.15668976253758,
+      "reflections": [
+        {
+          "wall_id": "osm_556278505_e0",
+          "point": [
+            1859.1605161380592,
+            470.2739470371739
+          ],
+          "u": 0.5917577698043086,
+          "finite_facade": true,
+          "on_line_distance_m": 2e-57,
+          "specular_unit_vector_residual": 1.1812705024675763e-58
+        },
+        {
+          "wall_id": "osm_419317355_e30",
+          "point": [
+            1862.9230930185465,
+            487.58138938823964
+          ],
+          "u": 0.3086310238093975,
+          "finite_facade": true,
+          "on_line_distance_m": 2e-57,
+          "specular_unit_vector_residual": 3.558201793040974e-58
+        }
+      ],
+      "nonendpoint_facade_hits": [],
+      "interior_intervals": [],
+      "boundary_partition_counts": [
+        3,
+        4,
+        3
+      ],
+      "clearance_e27_m": 0.033462130864930696,
+      "clearance_e28_m": 0.033462130864930696,
+      "API_contact_roundoff_facade_hits": [],
+      "API_contact_roundoff_interior_intervals": [],
+      "API_contact_tolerance_m": 1e-08,
+      "specular_tolerance_unit_vector": 1e-40
+    },
+    {
+      "rx_id": "x_-0.010",
+      "rx_x": 1949.99,
+      "rx_y": 500.0,
+      "target_surface_sequence": [
+        "osm_556278505_e0",
+        "osm_419317355_e30"
+      ],
+      "candidate_points": [
+        [
+          1838.748,
+          465.0
+        ],
+        [
+          1859.159273457327,
+          470.2726552145636
+        ],
+        [
+          1862.920874494517,
+          487.5793257821717
+        ],
+        [
+          1949.99,
+          500.0
+        ]
+      ],
+      "tx_domain": "exterior",
+      "rx_domain": "exterior",
+      "independently_valid": true,
+      "distance_m": 126.74262654685067,
+      "distance_decimal_m": "126.742626546850670366348454191586061197199055806676889626792",
+      "individual_power_dbm": -77.1600068231604,
+      "reflections": [
+        {
+          "wall_id": "osm_556278505_e0",
+          "point": [
+            1859.159273457327,
+            470.2726552145636
+          ],
+          "u": 0.5918220621330159,
+          "finite_facade": true,
+          "on_line_distance_m": 2e-57,
+          "specular_unit_vector_residual": 9.5524865872714e-59
+        },
+        {
+          "wall_id": "osm_419317355_e30",
+          "point": [
+            1862.920874494517,
+            487.5793257821717
+          ],
+          "u": 0.3086830082060252,
+          "finite_facade": true,
+          "on_line_distance_m": 2e-57,
+          "specular_unit_vector_residual": 3.540014124265608e-58
+        }
+      ],
+      "nonendpoint_facade_hits": [],
+      "interior_intervals": [],
+      "boundary_partition_counts": [
+        3,
+        4,
+        3
+      ],
+      "clearance_e27_m": 0.0371247985499587,
+      "clearance_e28_m": 0.0371247985499587,
+      "API_contact_roundoff_facade_hits": [],
+      "API_contact_roundoff_interior_intervals": [],
+      "API_contact_tolerance_m": 1e-08,
+      "specular_tolerance_unit_vector": 1e-40
+    },
+    {
+      "rx_id": "x_-0.001",
+      "rx_x": 1949.999,
+      "rx_y": 500.0,
+      "target_surface_sequence": [
+        "osm_556278505_e0",
+        "osm_419317355_e30"
+      ],
+      "candidate_points": [
+        [
+          1838.748,
+          465.0
+        ],
+        [
+          1859.1589939859532,
+          470.2723646914791
+        ],
+        [
+          1862.9203755568392,
+          487.5788616849587
+        ],
+        [
+          1949.999,
+          500.0
+        ]
+      ],
+      "tx_domain": "exterior",
+      "rx_domain": "exterior",
+      "independently_valid": true,
+      "distance_m": 126.75153635309768,
+      "distance_decimal_m": "126.751536353097673364973312714797179972438395494208545813651",
+      "individual_power_dbm": -77.16075299261536,
+      "reflections": [
+        {
+          "wall_id": "osm_556278505_e0",
+          "point": [
+            1859.1589939859532,
+            470.2723646914791
+          ],
+          "u": 0.5918365210885254,
+          "finite_facade": true,
+          "on_line_distance_m": 0.0,
+          "specular_unit_vector_residual": 7.844743462982075e-59
+        },
+        {
+          "wall_id": "osm_419317355_e30",
+          "point": [
+            1862.9203755568392,
+            487.5788616849587
+          ],
+          "u": 0.30869469930054505,
+          "finite_facade": true,
+          "on_line_distance_m": 0.0,
+          "specular_unit_vector_residual": 4.669047011971501e-59
+        }
+      ],
+      "nonendpoint_facade_hits": [],
+      "interior_intervals": [],
+      "boundary_partition_counts": [
+        3,
+        4,
+        2
+      ],
+      "clearance_e27_m": 0.037948583379409054,
+      "clearance_e28_m": 0.037948583379409054,
+      "API_contact_roundoff_facade_hits": [],
+      "API_contact_roundoff_interior_intervals": [],
+      "API_contact_tolerance_m": 1e-08,
+      "specular_tolerance_unit_vector": 1e-40
+    },
+    {
+      "rx_id": "x_+0.001",
+      "rx_x": 1950.001,
+      "rx_y": 500.0,
+      "target_surface_sequence": [
+        "osm_556278505_e0",
+        "osm_419317355_e30"
+      ],
+      "candidate_points": [
+        [
+          1838.748,
+          465.0
+        ],
+        [
+          1859.158931887775,
+          470.2723001376249
+        ],
+        [
+          1862.9202646932795,
+          487.5787585629229
+        ],
+        [
+          1950.001,
+          500.0
+        ]
+      ],
+      "tx_domain": "exterior",
+      "rx_domain": "exterior",
+      "independently_valid": true,
+      "distance_m": 126.75351631177213,
+      "distance_decimal_m": "126.753516311772124720912189036949257786890960079091265017446",
+      "individual_power_dbm": -77.1609187996123,
+      "reflections": [
+        {
+          "wall_id": "osm_556278505_e0",
+          "point": [
+            1859.158931887775,
+            470.2723001376249
+          ],
+          "u": 0.5918397338497672,
+          "finite_facade": true,
+          "on_line_distance_m": 1e-57,
+          "specular_unit_vector_residual": 1.676931721925493e-58
+        },
+        {
+          "wall_id": "osm_419317355_e30",
+          "point": [
+            1862.9202646932795,
+            487.5787585629229
+          ],
+          "u": 0.3086972970525543,
+          "finite_facade": true,
+          "on_line_distance_m": 0.0,
+          "specular_unit_vector_residual": 8.158431221748456e-59
+        }
+      ],
+      "nonendpoint_facade_hits": [],
+      "interior_intervals": [],
+      "boundary_partition_counts": [
+        2,
+        3,
+        2
+      ],
+      "clearance_e27_m": 0.03813163094682175,
+      "clearance_e28_m": 0.03813163094682175,
+      "API_contact_roundoff_facade_hits": [],
+      "API_contact_roundoff_interior_intervals": [],
+      "API_contact_tolerance_m": 1e-08,
+      "specular_tolerance_unit_vector": 1e-40
+    },
+    {
+      "rx_id": "x_+0.010",
+      "rx_x": 1950.01,
+      "rx_y": 500.0,
+      "target_surface_sequence": [
+        "osm_556278505_e0",
+        "osm_419317355_e30"
+      ],
+      "candidate_points": [
+        [
+          1838.748,
+          465.0
+        ],
+        [
+          1859.158652475538,
+          470.27200967601567
+        ],
+        [
+          1862.9197658589108,
+          487.5782945618048
+        ],
+        [
+          1950.01,
+          500.0
+        ]
+      ],
+      "tx_domain": "exterior",
+      "rx_domain": "exterior",
+      "independently_valid": true,
+      "distance_m": 126.76242613359396,
+      "distance_decimal_m": "126.762426133593967479013221070233037473055637289504623136307",
+      "individual_power_dbm": -77.16166489313437,
+      "reflections": [
+        {
+          "wall_id": "osm_556278505_e0",
+          "point": [
+            1859.158652475538,
+            470.27200967601567
+          ],
+          "u": 0.591854189745728,
+          "finite_facade": true,
+          "on_line_distance_m": 0.0,
+          "specular_unit_vector_residual": 2.6305892875931813e-59
+        },
+        {
+          "wall_id": "osm_419317355_e30",
+          "point": [
+            1862.9197658589108,
+            487.5782945618048
+          ],
+          "u": 0.308708985726345,
+          "finite_facade": true,
+          "on_line_distance_m": 1e-57,
+          "specular_unit_vector_residual": 1.323706916201619e-58
+        }
+      ],
+      "nonendpoint_facade_hits": [],
+      "interior_intervals": [],
+      "boundary_partition_counts": [
+        3,
+        4,
+        3
+      ],
+      "clearance_e27_m": 0.03895527423502846,
+      "clearance_e28_m": 0.03895527423502846,
+      "API_contact_roundoff_facade_hits": [],
+      "API_contact_roundoff_interior_intervals": [],
+      "API_contact_tolerance_m": 1e-08,
+      "specular_tolerance_unit_vector": 1e-40
+    },
+    {
+      "rx_id": "x_+0.050",
+      "rx_x": 1950.05,
+      "rx_y": 500.0,
+      "target_surface_sequence": [
+        "osm_556278505_e0",
+        "osm_419317355_e30"
+      ],
+      "candidate_points": [
+        [
+          1838.748,
+          465.0
+        ],
+        [
+          1859.1574112284254,
+          470.27071934371753
+        ],
+        [
+          1862.9175498393374,
+          487.5762332853089
+        ],
+        [
+          1950.05,
+          500.0
+        ]
+      ],
+      "tx_domain": "exterior",
+      "rx_domain": "exterior",
+      "independently_valid": true,
+      "distance_m": 126.8020254957928,
+      "distance_decimal_m": "126.802025495792802760459106562072127037638536069848696217888",
+      "individual_power_dbm": -77.16498011296028,
+      "reflections": [
+        {
+          "wall_id": "osm_556278505_e0",
+          "point": [
+            1859.1574112284254,
+            470.27071934371753
+          ],
+          "u": 0.5919184079035427,
+          "finite_facade": true,
+          "on_line_distance_m": 1e-57,
+          "specular_unit_vector_residual": 1.8110770276274833e-59
+        },
+        {
+          "wall_id": "osm_419317355_e30",
+          "point": [
+            1862.9175498393374,
+            487.5762332853089
+          ],
+          "u": 0.3087609114386153,
+          "finite_facade": true,
+          "on_line_distance_m": 0.0,
+          "specular_unit_vector_residual": 1.4983324063771697e-58
+        }
+      ],
+      "nonendpoint_facade_hits": [],
+      "interior_intervals": [],
+      "boundary_partition_counts": [
+        3,
+        4,
+        3
+      ],
+      "clearance_e27_m": 0.04261451061667312,
+      "clearance_e28_m": 0.04261451061667312,
+      "API_contact_roundoff_facade_hits": [],
+      "API_contact_roundoff_interior_intervals": [],
+      "API_contact_tolerance_m": 1e-08,
+      "specular_tolerance_unit_vector": 1e-40
+    },
+    {
+      "rx_id": "x_+0.100",
+      "rx_x": 1950.1,
+      "rx_y": 500.0,
+      "target_surface_sequence": [
+        "osm_556278505_e0",
+        "osm_419317355_e30"
+      ],
+      "candidate_points": [
+        [
+          1838.748,
+          465.0
+        ],
+        [
+          1859.1558610114864,
+          470.26910782336415
+        ],
+        [
+          1862.914782159266,
+          487.5736588703768
+        ],
+        [
+          1950.1,
+          500.0
+        ]
+      ],
+      "tx_domain": "exterior",
+      "rx_domain": "exterior",
+      "independently_valid": true,
+      "distance_m": 126.85152505207304,
+      "distance_decimal_m": "126.851525052073041311777357253125372294259479426486193276946",
+      "individual_power_dbm": -77.169122413653,
+      "reflections": [
+        {
+          "wall_id": "osm_556278505_e0",
+          "point": [
+            1859.1558610114864,
+            470.26910782336415
+          ],
+          "u": 0.591998611172514,
+          "finite_facade": true,
+          "on_line_distance_m": 0.0,
+          "specular_unit_vector_residual": 1.3300375934536588e-58
+        },
+        {
+          "wall_id": "osm_419317355_e30",
+          "point": [
+            1862.914782159266,
+            487.5736588703768
+          ],
+          "u": 0.30882576364514447,
+          "finite_facade": true,
+          "on_line_distance_m": 2e-57,
+          "specular_unit_vector_residual": 1.2727922061357855e-58
+        }
+      ],
+      "nonendpoint_facade_hits": [],
+      "interior_intervals": [],
+      "boundary_partition_counts": [
+        2,
+        2,
+        2
+      ],
+      "clearance_e27_m": 0.04718534322285101,
+      "clearance_e28_m": 0.04718534322285101,
+      "API_contact_roundoff_facade_hits": [],
+      "API_contact_roundoff_interior_intervals": [],
+      "API_contact_tolerance_m": 1e-08,
+      "specular_tolerance_unit_vector": 1e-40
+    },
+    {
+      "rx_id": "y_-0.100",
+      "rx_x": 1950.0,
+      "rx_y": 499.9,
+      "target_surface_sequence": [
+        "osm_556278505_e0",
+        "osm_419317355_e30"
+      ],
+      "candidate_points": [
+        [
+          1838.748,
+          465.0
+        ],
+        [
+          1859.137220891479,
+          470.2497305787837
+        ],
+        [
+          1862.8814985457902,
+          487.5426994280581
+        ],
+        [
+          1950.0,
+          499.9
+        ]
+      ],
+      "tx_domain": "exterior",
+      "rx_domain": "exterior",
+      "independently_valid": true,
+      "distance_m": 126.7384437676349,
+      "distance_decimal_m": "126.738443767634905116778993300267177561111117987330015457887",
+      "individual_power_dbm": -77.17042948708456,
+      "reflections": [
+        {
+          "wall_id": "osm_556278505_e0",
+          "point": [
+            1859.137220891479,
+            470.2497305787837
+          ],
+          "u": 0.5929629913963075,
+          "finite_facade": true,
+          "on_line_distance_m": 2e-57,
+          "specular_unit_vector_residual": 9.992497185388645e-59
+        },
+        {
+          "wall_id": "osm_419317355_e30",
+          "point": [
+            1862.8814985457902,
+            487.5426994280581
+          ],
+          "u": 0.3096056643993932,
+          "finite_facade": true,
+          "on_line_distance_m": 2e-57,
+          "specular_unit_vector_residual": 1.8498108011361595e-58
+        }
+      ],
+      "nonendpoint_facade_hits": [],
+      "interior_intervals": [],
+      "boundary_partition_counts": [
+        3,
+        3,
+        2
+      ],
+      "clearance_e27_m": 0.10221065833251136,
+      "clearance_e28_m": 0.10221065833251136,
+      "API_contact_roundoff_facade_hits": [],
+      "API_contact_roundoff_interior_intervals": [],
+      "API_contact_tolerance_m": 1e-08,
+      "specular_tolerance_unit_vector": 1e-40
+    },
+    {
+      "rx_id": "y_-0.050",
+      "rx_x": 1950.0,
+      "rx_y": 499.95,
+      "target_surface_sequence": [
+        "osm_556278505_e0",
+        "osm_419317355_e30"
+      ],
+      "candidate_points": [
+        [
+          1838.748,
+          465.0
+        ],
+        [
+          1859.1480856299322,
+          470.26102496391803
+        ],
+        [
+          1862.9008995189463,
+          487.56074564499863
+        ],
+        [
+          1950.0,
+          499.95
+        ]
+      ],
+      "tx_domain": "exterior",
+      "rx_domain": "exterior",
+      "independently_valid": true,
+      "distance_m": 126.74547538329843,
+      "distance_decimal_m": "126.745475383298429779203730154626977234350508667415242417330",
+      "individual_power_dbm": -77.16563252542863,
+      "reflections": [
+        {
+          "wall_id": "osm_556278505_e0",
+          "point": [
+            1859.1480856299322,
+            470.26102496391803
+          ],
+          "u": 0.5924008845591763,
+          "finite_facade": true,
+          "on_line_distance_m": 2e-57,
+          "specular_unit_vector_residual": 8.747571091451615e-59
+        },
+        {
+          "wall_id": "osm_419317355_e30",
+          "point": [
+            1862.9008995189463,
+            487.56074564499863
+          ],
+          "u": 0.3091510613074391,
+          "finite_facade": true,
+          "on_line_distance_m": 3e-57,
+          "specular_unit_vector_residual": 1.4512063946937389e-58
+        }
+      ],
+      "nonendpoint_facade_hits": [],
+      "interior_intervals": [],
+      "boundary_partition_counts": [
+        3,
+        3,
+        2
+      ],
+      "clearance_e27_m": 0.07012360597196658,
+      "clearance_e28_m": 0.07012360597196658,
+      "API_contact_roundoff_facade_hits": [],
+      "API_contact_roundoff_interior_intervals": [],
+      "API_contact_tolerance_m": 1e-08,
+      "specular_tolerance_unit_vector": 1e-40
+    },
+    {
+      "rx_id": "y_-0.010",
+      "rx_x": 1950.0,
+      "rx_y": 499.99,
+      "target_surface_sequence": [
+        "osm_556278505_e0",
+        "osm_419317355_e30"
+      ],
+      "candidate_points": [
+        [
+          1838.748,
+          465.0
+        ],
+        [
+          1859.1567864687377,
+          470.2700698778736
+        ],
+        [
+          1862.9164344313942,
+          487.57519576551243
+        ],
+        [
+          1950.0,
+          499.99
+        ]
+      ],
+      "tx_domain": "exterior",
+      "rx_domain": "exterior",
+      "independently_valid": true,
+      "distance_m": 126.75111459602788,
+      "distance_decimal_m": "126.751114596027876123819324032909756478960906694786047709976",
+      "individual_power_dbm": -77.1617951955533,
+      "reflections": [
+        {
+          "wall_id": "osm_556278505_e0",
+          "point": [
+            1859.1567864687377,
+            470.2700698778736
+          ],
+          "u": 0.5919507309726609,
+          "finite_facade": true,
+          "on_line_distance_m": 1e-57,
+          "specular_unit_vector_residual": 2.8160255680657445e-59
+        },
+        {
+          "wall_id": "osm_419317355_e30",
+          "point": [
+            1862.9164344313942,
+            487.57519576551243
+          ],
+          "u": 0.30878704764815873,
+          "finite_facade": true,
+          "on_line_distance_m": 2e-57,
+          "specular_unit_vector_residual": 1.9884164553734712e-58
+        }
+      ],
+      "nonendpoint_facade_hits": [],
+      "interior_intervals": [],
+      "boundary_partition_counts": [
+        3,
+        4,
+        3
+      ],
+      "clearance_e27_m": 0.04445652247912191,
+      "clearance_e28_m": 0.04445652247912191,
+      "API_contact_roundoff_facade_hits": [],
+      "API_contact_roundoff_interior_intervals": [],
+      "API_contact_tolerance_m": 1e-08,
+      "specular_tolerance_unit_vector": 1e-40
+    },
+    {
+      "rx_id": "y_-0.001",
+      "rx_x": 1950.0,
+      "rx_y": 499.999,
+      "target_surface_sequence": [
+        "osm_556278505_e0",
+        "osm_419317355_e30"
+      ],
+      "candidate_points": [
+        [
+          1838.748,
+          465.0
+        ],
+        [
+          1859.1587452671235,
+          470.27210613704955
+        ],
+        [
+          1862.9199315198352,
+          487.5784486547442
+        ],
+        [
+          1950.0,
+          499.999
+        ]
+      ],
+      "tx_domain": "exterior",
+      "rx_domain": "exterior",
+      "independently_valid": true,
+      "distance_m": 126.75238512392868,
+      "distance_decimal_m": "126.752385123928671974671970635294542254606649330078850011007",
+      "individual_power_dbm": -77.1609318258001,
+      "reflections": [
+        {
+          "wall_id": "osm_556278505_e0",
+          "point": [
+            1859.1587452671235,
+            470.27210613704955
+          ],
+          "u": 0.5918493890057147,
+          "finite_facade": true,
+          "on_line_distance_m": 0.0,
+          "specular_unit_vector_residual": 1.1985407794480753e-58
+        },
+        {
+          "wall_id": "osm_419317355_e30",
+          "point": [
+            1862.9199315198352,
+            487.5784486547442
+          ],
+          "u": 0.308705103963927,
+          "finite_facade": true,
+          "on_line_distance_m": 0.0,
+          "specular_unit_vector_residual": 3.423448553724738e-59
+        }
+      ],
+      "nonendpoint_facade_hits": [],
+      "interior_intervals": [],
+      "boundary_partition_counts": [
+        2,
+        2,
+        2
+      ],
+      "clearance_e27_m": 0.03868174291690611,
+      "clearance_e28_m": 0.03868174291690611,
+      "API_contact_roundoff_facade_hits": [],
+      "API_contact_roundoff_interior_intervals": [],
+      "API_contact_tolerance_m": 1e-08,
+      "specular_tolerance_unit_vector": 1e-40
+    },
+    {
+      "rx_id": "y_+0.001",
+      "rx_x": 1950.0,
+      "rx_y": 500.001,
+      "target_surface_sequence": [
+        "osm_556278505_e0",
+        "osm_419317355_e30"
+      ],
+      "candidate_points": [
+        [
+          1838.748,
+          465.0
+        ],
+        [
+          1859.1591806110432,
+          470.27255869666857
+        ],
+        [
+          1862.920708737105,
+          487.5791715994825
+        ],
+        [
+          1950.0,
+          500.001
+        ]
+      ],
+      "tx_domain": "exterior",
+      "rx_domain": "exterior",
+      "independently_valid": true,
+      "distance_m": 126.75266754851587,
+      "distance_decimal_m": "126.752667548515871988369178588696490766134718346201934049719",
+      "individual_power_dbm": -77.16073996732854,
+      "reflections": [
+        {
+          "wall_id": "osm_556278505_e0",
+          "point": [
+            1859.1591806110432,
+            470.27255869666857
+          ],
+          "u": 0.5918268657029359,
+          "finite_facade": true,
+          "on_line_distance_m": 2e-57,
+          "specular_unit_vector_residual": 2.590694887477103e-58
+        },
+        {
+          "wall_id": "osm_419317355_e30",
+          "point": [
+            1862.920708737105,
+            487.5791715994825
+          ],
+          "u": 0.30868689222933404,
+          "finite_facade": true,
+          "on_line_distance_m": 1e-57,
+          "specular_unit_vector_residual": 2.8553983960211228e-58
+        }
+      ],
+      "nonendpoint_facade_hits": [],
+      "interior_intervals": [],
+      "boundary_partition_counts": [
+        2,
+        2,
+        2
+      ],
+      "clearance_e27_m": 0.037398474266376026,
+      "clearance_e28_m": 0.037398474266376026,
+      "API_contact_roundoff_facade_hits": [],
+      "API_contact_roundoff_interior_intervals": [],
+      "API_contact_tolerance_m": 1e-08,
+      "specular_tolerance_unit_vector": 1e-40
+    },
+    {
+      "rx_id": "y_+0.010",
+      "rx_x": 1950.0,
+      "rx_y": 500.01,
+      "target_surface_sequence": [
+        "osm_556278505_e0",
+        "osm_419317355_e30"
+      ],
+      "candidate_points": [
+        [
+          1838.748,
+          465.0
+        ],
+        [
+          1859.161139907993,
+          470.2745954741241
+        ],
+        [
+          1862.9242066041709,
+          487.58242521296836
+        ],
+        [
+          1950.0,
+          500.01
+        ]
+      ],
+      "tx_domain": "exterior",
+      "rx_domain": "exterior",
+      "independently_valid": true,
+      "distance_m": 126.75393884189135,
+      "distance_decimal_m": "126.753938841891348270216820066908323794280066151920879283233",
+      "individual_power_dbm": -77.15987661084391,
+      "reflections": [
+        {
+          "wall_id": "osm_556278505_e0",
+          "point": [
+            1859.161139907993,
+            470.2745954741241
+          ],
+          "u": 0.5917254979418893,
+          "finite_facade": true,
+          "on_line_distance_m": 1e-57,
+          "specular_unit_vector_residual": 1.5380507143784304e-58
+        },
+        {
+          "wall_id": "osm_419317355_e30",
+          "point": [
+            1862.9242066041709,
+            487.58242521296836
+          ],
+          "u": 0.3086049303003835,
+          "finite_facade": true,
+          "on_line_distance_m": 2e-57,
+          "specular_unit_vector_residual": 8e-60
+        }
+      ],
+      "nonendpoint_facade_hits": [],
+      "interior_intervals": [],
+      "boundary_partition_counts": [
+        2,
+        3,
+        3
+      ],
+      "clearance_e27_m": 0.03162383601099846,
+      "clearance_e28_m": 0.03162383601099846,
+      "API_contact_roundoff_facade_hits": [],
+      "API_contact_roundoff_interior_intervals": [],
+      "API_contact_tolerance_m": 1e-08,
+      "specular_tolerance_unit_vector": 1e-40
+    },
+    {
+      "rx_id": "y_+0.050",
+      "rx_x": 1950.0,
+      "rx_y": 500.05,
+      "target_surface_sequence": [
+        "osm_556278505_e0",
+        "osm_419317355_e30"
+      ],
+      "candidate_points": [
+        [
+          1838.748,
+          465.0
+        ],
+        [
+          1859.169852833199,
+          470.28365295243765
+        ],
+        [
+          1862.9397603923796,
+          487.5968928911618
+        ],
+        [
+          1950.0,
+          500.05
+        ]
+      ],
+      "tx_domain": "exterior",
+      "rx_domain": "exterior",
+      "independently_valid": true,
+      "distance_m": 126.7595966115821,
+      "distance_decimal_m": "126.759596611582094798946918720992890267564490698160914991331",
+      "individual_power_dbm": -77.15603960263037,
+      "reflections": [
+        {
+          "wall_id": "osm_556278505_e0",
+          "point": [
+            1859.169852833199,
+            470.28365295243765
+          ],
+          "u": 0.5912747190436427,
+          "finite_facade": true,
+          "on_line_distance_m": 1e-57,
+          "specular_unit_vector_residual": 4.491102314577124e-59
+        },
+        {
+          "wall_id": "osm_419317355_e30",
+          "point": [
+            1862.9397603923796,
+            487.5968928911618
+          ],
+          "u": 0.3082404743447766,
+          "finite_facade": true,
+          "on_line_distance_m": 0.0,
+          "specular_unit_vector_residual": 9.642095207992918e-59
+        }
+      ],
+      "nonendpoint_facade_hits": [],
+      "interior_intervals": [],
+      "boundary_partition_counts": [
+        3,
+        3,
+        2
+      ],
+      "clearance_e27_m": 0.005960178137701087,
+      "clearance_e28_m": 0.005960178137701087,
+      "API_contact_roundoff_facade_hits": [],
+      "API_contact_roundoff_interior_intervals": [],
+      "API_contact_tolerance_m": 1e-08,
+      "specular_tolerance_unit_vector": 1e-40
+    },
+    {
+      "rx_id": "y_+0.100",
+      "rx_x": 1950.0,
+      "rx_y": 500.1,
+      "target_surface_sequence": [
+        "osm_556278505_e0",
+        "osm_419317355_e30"
+      ],
+      "candidate_points": [
+        [
+          1838.748,
+          465.0
+        ],
+        [
+          1859.1807553417043,
+          470.29498660124267
+        ],
+        [
+          1862.9592203523475,
+          487.61499397590694
+        ],
+        [
+          1950.0,
+          500.1
+        ]
+      ],
+      "tx_domain": "exterior",
+      "rx_domain": "exterior",
+      "independently_valid": false,
+      "distance_m": 126.76668621774164,
+      "distance_decimal_m": "126.766686217741639801580200677696697577220628757720382761991",
+      "individual_power_dbm": -77.15124364616719,
+      "reflections": [
+        {
+          "wall_id": "osm_556278505_e0",
+          "point": [
+            1859.1807553417043,
+            470.29498660124267
+          ],
+          "u": 0.5907106581047623,
+          "finite_facade": true,
+          "on_line_distance_m": 0.0,
+          "specular_unit_vector_residual": 1.3767352686700519e-58
+        },
+        {
+          "wall_id": "osm_419317355_e30",
+          "point": [
+            1862.9592203523475,
+            487.61499397590694
+          ],
+          "u": 0.3077844890754008,
+          "finite_facade": true,
+          "on_line_distance_m": 2e-57,
+          "specular_unit_vector_residual": 1.268897158953396e-58
+        }
+      ],
+      "nonendpoint_facade_hits": [
+        {
+          "leg": 2,
+          "wall": "osm_419317355_e27",
+          "kind": "point",
+          "position": [
+            1906.730822401672,
+            493.893530513404
+          ]
+        },
+        {
+          "leg": 2,
+          "wall": "osm_419317355_e28",
+          "kind": "point",
+          "position": [
+            1905.7662487963873,
+            493.7551734430583
+          ]
+        }
+      ],
+      "interior_intervals": [
+        {
+          "leg": 2,
+          "sample": [
+            1906.2485355990295,
+            493.82435197823116
+          ],
+          "interval_parameter": [
+            0.49180428550072675,
+            0.5028861440179544
+          ]
+        }
+      ],
+      "boundary_partition_counts": [
+        2,
+        2,
+        4
+      ],
+      "clearance_e27_m": 0.0,
+      "clearance_e28_m": 0.0,
+      "API_contact_roundoff_facade_hits": [],
+      "API_contact_roundoff_interior_intervals": [],
+      "API_contact_tolerance_m": 1e-08,
+      "specular_tolerance_unit_vector": 1e-40
+    }
+  ]
+}

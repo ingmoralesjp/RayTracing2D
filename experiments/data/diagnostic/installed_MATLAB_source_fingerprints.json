@@ -1,0 +1,23 @@
+[
+  {
+    "symbol": "comm.internal.geometry.viewshed",
+    "installed_path": "/home/juan/MatLab/toolbox/shared/channel/raytracing/+comm/+internal/+geometry/viewshed.m",
+    "sha256": "7f72a5e5089fa3a2bcd17c6aed40e9b86f62ca2d8c7506dadd0744bdfc4b935c",
+    "lines": 156,
+    "redistributed": false
+  },
+  {
+    "symbol": "comm.internal.geometry.calcImageReflectionPath",
+    "installed_path": "/home/juan/MatLab/toolbox/shared/channel/raytracing/+comm/+internal/+geometry/calcImageReflectionPath.m",
+    "sha256": "95bfd8dd8d5654f49626e3dfabaf330c7b9e8eebd872ee3811c9ed00323277a3",
+    "lines": 144,
+    "redistributed": false
+  },
+  {
+    "symbol": "comm.internal.geometry.firstIntersect",
+    "installed_path": "/home/juan/MatLab/toolbox/shared/channel/raytracing/+comm/+internal/+geometry/firstIntersect.m",
+    "sha256": "aaf4bdbdca3d5517eae56bd26001c424128c52ba0d49cfa0e65c476a11676cb3",
+    "lines": 103,
+    "redistributed": false
+  }
+]

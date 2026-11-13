@@ -1,0 +1,63 @@
+Central refined representation:
+[
+  {
+    "scene": "R_e30_refine1000",
+    "batch": "receivers_initial",
+    "seed": 42,
+    "rx_id": "M50_053",
+    "path_index": 0,
+    "first_primitive": 3332,
+    "second_primitive": 676,
+    "max_API_vs_quantized_exact_reflection_m": 0.0009833107751410866,
+    "max_specular_residual_quantized_planes": 1.9110482882456218e-05,
+    "max_triangle_normal_change_rad": 1.0312852411817698e-05,
+    "min_quantized_exact_reflection_barycentric": 0.06185877521384611,
+    "both_quantized_exact_reflections_on_finite_triangles": true,
+    "nominal_vs_float32_vertex_max_m": 1.0807418384509409e-06
+  },
+  {
+    "scene": "R_e30_refine1000",
+    "batch": "receivers_initial",
+    "seed": 42,
+    "rx_id": "M50_053",
+    "path_index": 1,
+    "first_primitive": 3332,
+    "second_primitive": 676,
+    "max_API_vs_quantized_exact_reflection_m": 0.0018902141488708652,
+    "max_specular_residual_quantized_planes": 3.850971034368175e-05,
+    "max_triangle_normal_change_rad": 1.0312852411817698e-05,
+    "min_quantized_exact_reflection_barycentric": 0.06185877521384611,
+    "both_quantized_exact_reflections_on_finite_triangles": true,
+    "nominal_vs_float32_vertex_max_m": 1.0807418384509409e-06
+  },
+  {
+    "scene": "R_e30_refine1000",
+    "batch": "receivers_initial",
+    "seed": 42,
+    "rx_id": "M50_053",
+    "path_index": 2,
+    "first_primitive": 3332,
+    "second_primitive": 676,
+    "max_API_vs_quantized_exact_reflection_m": 8.823524799661826e-05,
+    "max_specular_residual_quantized_planes": 3.5289420837483617e-06,
+    "max_triangle_normal_change_rad": 1.0312852411817698e-05,
+    "min_quantized_exact_reflection_barycentric": 0.06185877521384611,
+    "both_quantized_exact_reflections_on_finite_triangles": true,
+    "nominal_vs_float32_vertex_max_m": 1.0807418384509409e-06
+  },
+  {
+    "scene": "R_e30_refine1000",
+    "batch": "receivers_initial",
+    "seed": 42,
+    "rx_id": "M50_053",
+    "path_index": 3,
+    "first_primitive": 3332,
+    "second_primitive": 676,
+    "max_API_vs_quantized_exact_reflection_m": 0.0021989413855446286,
+    "max_specular_residual_quantized_planes": 4.816051294853131e-05,
+    "max_triangle_normal_change_rad": 1.0312852411817698e-05,
+    "min_quantized_exact_reflection_barycentric": 0.06185877521384611,
+    "both_quantized_exact_reflections_on_finite_triangles": true,
+    "nominal_vs_float32_vertex_max_m": 1.0807418384509409e-06
+  }
+]

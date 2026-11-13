@@ -1,0 +1,5 @@
+scenario,center_x,center_y,tx_x,tx_y,receivers,window_m,building_polygons_intersecting_window_by_vertex,source,land_use_claim
+S1_reference_south,1838.748,465,1826.248,452.5,81,200x200,10,"same archived Zacatecas OSM; three subareas, not independent cities",none; campus/residential classification not inferred
+S2_historic_vicinity,2800,1800,2787.5,1787.5,81,200x200,41,"same archived Zacatecas OSM; three subareas, not independent cities",none; campus/residential classification not inferred
+S3_west,800,1400,787.5,1387.5,81,200x200,0,"same archived Zacatecas OSM; three subareas, not independent cities",none; campus/residential classification not inferred
+S4_west_central_populated,2200,1800,2187.5,1787.5,81,200x200,27,"same archived Zacatecas OSM; three subareas, not independent cities",none; campus/residential classification not inferred

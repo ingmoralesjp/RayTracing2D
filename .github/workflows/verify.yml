@@ -1,0 +1,21 @@
+name: Verify research material
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  kernel-and-data:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          persist-credentials: false
+      - name: Verify archived material
+        run: make verify
+      - name: Verify scientific kernel
+        run: make test

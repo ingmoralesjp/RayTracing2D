@@ -1,0 +1,437 @@
+[
+  {
+    "rx_id": "y_+0.0592601893",
+    "path_id": "REFL2_osm_556278505_e0_osm_419317355_e30",
+    "distance_m": 126.76090817532426,
+    "path_loss_db": 91.15515134773456,
+    "power_dbm": -77.15515134773456,
+    "phase_rad": 1.241990677034245,
+    "surface_sequence": [
+      "osm_556278505_e0",
+      "osm_419317355_e30"
+    ],
+    "interaction_positions": [
+      [
+        1859.1718710668008,
+        470.28575099719865,
+        1.5
+      ],
+      [
+        1862.943362963927,
+        487.6002438976895,
+        1.5
+      ]
+    ],
+    "interaction_types": [
+      "Reflection",
+      "Reflection"
+    ],
+    "target": true
+  },
+  {
+    "rx_id": "y_+0.0592751893",
+    "path_id": "REFL2_osm_556278505_e0_osm_419317355_e30",
+    "distance_m": 126.76091030038216,
+    "path_loss_db": 91.15514990891582,
+    "power_dbm": -77.15514990891582,
+    "phase_rad": 1.2418837997370602,
+    "surface_sequence": [
+      "osm_556278505_e0",
+      "osm_419317355_e30"
+    ],
+    "interaction_positions": [
+      [
+        1859.171874336362,
+        470.2857543960546,
+        1.5
+      ],
+      [
+        1862.9433688000547,
+        487.60024932628465,
+        1.5
+      ]
+    ],
+    "interaction_types": [
+      "Reflection",
+      "Reflection"
+    ],
+    "target": true
+  },
+  {
+    "rx_id": "y_+0.0592851893",
+    "path_id": "REFL2_osm_556278505_e0_osm_419317355_e30",
+    "distance_m": 126.76091171708818,
+    "path_loss_db": 91.15514894970322,
+    "power_dbm": -77.15514894970322,
+    "phase_rad": 1.2418125481667985,
+    "surface_sequence": [
+      "osm_556278505_e0",
+      "osm_419317355_e30"
+    ],
+    "interaction_positions": [
+      [
+        1859.17187651607,
+        470.2857566619593,
+        1.5
+      ],
+      [
+        1862.9433726908076,
+        487.600252945349,
+        1.5
+      ]
+    ],
+    "interaction_types": [
+      "Reflection",
+      "Reflection"
+    ],
+    "target": true
+  },
+  {
+    "rx_id": "x_-0.4142809871",
+    "path_id": "REFL2_osm_556278505_e0_osm_419317355_e30",
+    "distance_m": 126.34241025958019,
+    "path_loss_db": 91.12642456949308,
+    "power_dbm": -77.12642456949308,
+    "phase_rad": 3.442997344086251,
+    "surface_sequence": [
+      "osm_556278505_e0",
+      "osm_419317355_e30"
+    ],
+    "interaction_positions": [
+      [
+        1859.1718774494339,
+        470.2857576322331,
+        1.5
+      ],
+      [
+        1862.943374356851,
+        487.6002544950539,
+        1.5
+      ]
+    ],
+    "interaction_types": [
+      "Reflection",
+      "Reflection"
+    ],
+    "target": true
+  },
+  {
+    "rx_id": "x_-0.4142659871",
+    "path_id": "REFL2_osm_556278505_e0_osm_419317355_e30",
+    "distance_m": 126.34242510828793,
+    "path_loss_db": 91.12642581782961,
+    "power_dbm": -77.12642581782961,
+    "phase_rad": 3.4422504479523184,
+    "surface_sequence": [
+      "osm_556278505_e0",
+      "osm_419317355_e30"
+    ],
+    "interaction_positions": [
+      [
+        1859.1718769799634,
+        470.28575714419736,
+        1.5
+      ],
+      [
+        1862.9433735188518,
+        487.6002537155714,
+        1.5
+      ]
+    ],
+    "interaction_types": [
+      "Reflection",
+      "Reflection"
+    ],
+    "target": true
+  },
+  {
+    "rx_id": "x_-0.4141859871",
+    "path_id": "REFL2_osm_556278505_e0_osm_419317355_e30",
+    "distance_m": 126.34250430139592,
+    "path_loss_db": 91.12643247562151,
+    "power_dbm": -77.12643247562151,
+    "phase_rad": 3.438267001904677,
+    "surface_sequence": [
+      "osm_556278505_e0",
+      "osm_419317355_e30"
+    ],
+    "interaction_positions": [
+      [
+        1859.1718744761224,
+        470.285754541342,
+        1.5
+      ],
+      [
+        1862.9433690495257,
+        487.60024955833524,
+        1.5
+      ]
+    ],
+    "interaction_types": [
+      "Reflection",
+      "Reflection"
+    ],
+    "target": true
+  },
+  {
+    "rx_id": "y_-1.3092029466",
+    "path_id": "REFL2_osm_556278505_e0_osm_419317355_e30",
+    "distance_m": 126.57428671624524,
+    "path_loss_db": 91.28653458764352,
+    "power_dbm": -77.28653458764352,
+    "phase_rad": 4.3446707376836144,
+    "surface_sequence": [
+      "osm_556278505_e0",
+      "osm_419317355_e30"
+    ],
+    "interaction_positions": [
+      [
+        1858.8782376596407,
+        469.9805058407679,
+        1.5
+      ],
+      [
+        1862.4182046920373,
+        487.1117570560027,
+        1.5
+      ]
+    ],
+    "interaction_types": [
+      "Reflection",
+      "Reflection"
+    ],
+    "target": true
+  },
+  {
+    "rx_id": "y_-1.3072029466",
+    "path_id": "REFL2_osm_556278505_e0_osm_419317355_e30",
+    "distance_m": 126.57454886735465,
+    "path_loss_db": 91.2863424105846,
+    "power_dbm": -77.2863424105846,
+    "phase_rad": 4.331486278198341,
+    "surface_sequence": [
+      "osm_556278505_e0",
+      "osm_419317355_e30"
+    ],
+    "interaction_positions": [
+      [
+        1858.8786601205172,
+        469.98094500788295,
+        1.5
+      ],
+      [
+        1862.4189617330621,
+        487.11246123338896,
+        1.5
+      ]
+    ],
+    "interaction_types": [
+      "Reflection",
+      "Reflection"
+    ],
+    "target": true
+  },
+  {
+    "rx_id": "y_-1.3064029466",
+    "path_id": "REFL2_osm_556278505_e0_osm_419317355_e30",
+    "distance_m": 126.5746537364948,
+    "path_loss_db": 91.28626553988363,
+    "power_dbm": -77.28626553988363,
+    "phase_rad": 4.3262120569791165,
+    "surface_sequence": [
+      "osm_556278505_e0",
+      "osm_419317355_e30"
+    ],
+    "interaction_positions": [
+      [
+        1858.8788291102596,
+        469.98112068033413,
+        1.5
+      ],
+      [
+        1862.41926455794,
+        487.11274291222014,
+        1.5
+      ]
+    ],
+    "interaction_types": [
+      "Reflection",
+      "Reflection"
+    ],
+    "target": true
+  },
+  {
+    "rx_id": "y_-1.3062529466",
+    "path_id": "REFL2_osm_556278505_e0_osm_419317355_e30",
+    "distance_m": 126.57467340001179,
+    "path_loss_db": 91.28625112663502,
+    "power_dbm": -77.28625112663502,
+    "phase_rad": 4.325223112673726,
+    "surface_sequence": [
+      "osm_556278505_e0",
+      "osm_419317355_e30"
+    ],
+    "interaction_positions": [
+      [
+        1858.8788607961797,
+        469.98115361927546,
+        1.5
+      ],
+      [
+        1862.4193213381436,
+        487.1127957275021,
+        1.5
+      ]
+    ],
+    "interaction_types": [
+      "Reflection",
+      "Reflection"
+    ],
+    "target": true
+  },
+  {
+    "rx_id": "y_-1.3062029466",
+    "path_id": "REFL2_osm_556278505_e0_osm_419317355_e30",
+    "distance_m": 126.57467995455644,
+    "path_loss_db": 91.28624632221941,
+    "power_dbm": -77.28624632221941,
+    "phase_rad": 4.324893462610149,
+    "surface_sequence": [
+      "osm_556278505_e0",
+      "osm_419317355_e30"
+    ],
+    "interaction_positions": [
+      [
+        1858.8788713581769,
+        469.98116459894743,
+        1.5
+      ],
+      [
+        1862.4193402649157,
+        487.1128133326313,
+        1.5
+      ]
+    ],
+    "interaction_types": [
+      "Reflection",
+      "Reflection"
+    ],
+    "target": true
+  },
+  {
+    "rx_id": "y_-1.3061529466",
+    "path_id": "REFL2_osm_556278505_e0_osm_419317355_e30",
+    "distance_m": 126.57468650912023,
+    "path_loss_db": 91.28624151780397,
+    "power_dbm": -77.28624151780397,
+    "phase_rad": 4.324563811585236,
+    "surface_sequence": [
+      "osm_556278505_e0",
+      "osm_419317355_e30"
+    ],
+    "interaction_positions": [
+      [
+        1858.8788819201861,
+        469.981175578632,
+        1.5
+      ],
+      [
+        1862.419359191707,
+        487.11283093777797,
+        1.5
+      ]
+    ],
+    "interaction_types": [
+      "Reflection",
+      "Reflection"
+    ],
+    "target": true
+  },
+  {
+    "rx_id": "y_-1.3060029466",
+    "path_id": "REFL2_osm_556278505_e0_osm_419317355_e30",
+    "distance_m": 126.5747061729285,
+    "path_loss_db": 91.2862271045595,
+    "power_dbm": -77.2862271045595,
+    "phase_rad": 4.323574852628795,
+    "surface_sequence": [
+      "osm_556278505_e0",
+      "osm_419317355_e30"
+    ],
+    "interaction_positions": [
+      [
+        1858.8789136062865,
+        469.9812085177609,
+        1.5
+      ],
+      [
+        1862.4194159721937,
+        487.1128837533237,
+        1.5
+      ]
+    ],
+    "interaction_types": [
+      "Reflection",
+      "Reflection"
+    ],
+    "target": true
+  },
+  {
+    "rx_id": "y_-1.3052029466",
+    "path_id": "REFL2_osm_556278505_e0_osm_419317355_e30",
+    "distance_m": 126.57481104952296,
+    "path_loss_db": 91.28615023396377,
+    "power_dbm": -77.28615023396377,
+    "phase_rad": 4.318300256459466,
+    "surface_sequence": [
+      "osm_556278505_e0",
+      "osm_419317355_e30"
+    ],
+    "interaction_positions": [
+      [
+        1858.879082600651,
+        469.9813841950167,
+        1.5
+      ],
+      [
+        1862.4197188043304,
+        487.1131654389067,
+        1.5
+      ]
+    ],
+    "interaction_types": [
+      "Reflection",
+      "Reflection"
+    ],
+    "target": true
+  },
+  {
+    "rx_id": "y_-1.3032029466",
+    "path_id": "REFL2_osm_556278505_e0_osm_419317355_e30",
+    "distance_m": 126.57507326274984,
+    "path_loss_db": 91.28595805778097,
+    "power_dbm": -77.28595805778097,
+    "phase_rad": 4.305112672487908,
+    "surface_sequence": [
+      "osm_556278505_e0",
+      "osm_419317355_e30"
+    ],
+    "interaction_positions": [
+      [
+        1858.8795051000427,
+        469.9818234021704,
+        1.5
+      ],
+      [
+        1862.420475905844,
+        487.11386967255777,
+        1.5
+      ]
+    ],
+    "interaction_types": [
+      "Reflection",
+      "Reflection"
+    ],
+    "target": true
+  }
+]

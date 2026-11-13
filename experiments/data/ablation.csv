@@ -1,0 +1,5 @@
+configuration,all_receivers,exterior_valid,interior_excluded,boundary_excluded,all_with_path_legacy_diagnostic,exterior_with_path,exterior_no_path,exterior_availability_percent,historical_all_receiver_availability_percent,common_exterior_receivers,mean_power_dbm_own_exterior_finite,mean_power_dbm_common_exterior,mean_rms_ns_own_exterior_finite,mean_rms_ns_common_exterior,exterior_retained_paths,exterior_los_paths,exterior_reflection1_paths,exterior_reflection2_paths,exterior_diffraction_paths
+LoS,273,192,81,0,106,106,86,55.208333333333336,38.82783882783883,106,-70.89630609472735,-70.89630609472735,1.9233177335336787e-06,1.9233177335336787e-06,106,106,0,0,0
+LoS+R1,273,192,81,0,114,114,78,59.375,41.75824175824176,106,-73.04624493293771,-72.65843104678962,26.883310195508212,28.3006491680563,296,106,190,0,0
+LoS+R1+R2,273,192,81,0,122,122,70,63.541666666666664,44.68864468864469,106,-74.09474943309509,-72.85227829278018,37.9536052878378,42.39754859147186,418,106,190,122,0
+FULL,273,192,81,0,151,151,41,78.64583333333333,55.311355311355314,106,-77.4568252982649,-72.85227829278018,37.69267594490725,42.39754859147186,460,106,190,122,42

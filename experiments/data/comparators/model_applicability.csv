@@ -1,0 +1,6 @@
+model,valid_exterior_receivers,status
+FSPL,1106,"free-space reference, buildings ignored, excluded RX masked"
+LogDistance,1106,"uncalibrated n=2.7/3.0/3.5, d0=1m"
+COST231 Hata,0,"not applicable at 2.4GHz, distance <1km, antenna heights absent"
+COST231 Walfisch Ikegami,0,not applicable at 2.4GHz; street/roof parameters unavailable
+ITU-R P.1411-13 Table4,1009,"conditional: both terminals below roofs, equal heights, low-rise/suburban NLoS; median, no random shadowing; LoS 5-660m, NLoS 10-250m"

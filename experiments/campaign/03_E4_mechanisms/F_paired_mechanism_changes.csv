@@ -1,0 +1,4 @@
+transition,new_exterior_with_path,lost_exterior_with_path,paired_finite,power_increases,power_decreases,mean_paired_change_db,min_change_db,max_change_db
+LoS to LoS+R1,8,0,106,41,65,-1.7621249520622644,-32.92746160909999,4.531695316300002
+LoS+R1 to LoS+R1+R2,8,0,114,25,43,-0.26963846777456124,-8.696689862699998,21.685634944300006
+LoS+R1+R2 to FULL,29,0,122,5,5,-0.017894185813114624,-11.193637637199998,8.748045243600004

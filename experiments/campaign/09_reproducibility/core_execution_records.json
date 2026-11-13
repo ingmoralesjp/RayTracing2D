@@ -1,0 +1,302 @@
+[
+  {
+    "label": "probe_vs_OMNeT_M50",
+    "command": [
+      "/home/juan/omnetpp-6.0pre11/samples/flora/experiments/raytracing-final-correction-20261112/runtime/rtprobe",
+      "eval",
+      "/home/juan/omnetpp-6.0pre11/samples/flora/experiments/raytracing-final-correction-20261112/09_reproducibility/walls_exact.csv",
+      "/home/juan/omnetpp-6.0pre11/samples/flora/experiments/raytracing-final-correction-20261112/09_reproducibility/m50_receivers.csv",
+      "/home/juan/omnetpp-6.0pre11/samples/flora/experiments/raytracing-final-correction-20261112/09_reproducibility/probe_M50.csv",
+      "1",
+      "15",
+      "500"
+    ],
+    "returncode": 0,
+    "wall_seconds": 0.7649653046391904
+  },
+  {
+    "label": "external_reflection_only",
+    "command": [
+      "/home/juan/omnetpp-6.0pre11/samples/flora/experiments/raytracing-final-correction-20261112/runtime/rtprobe",
+      "eval",
+      "/home/juan/omnetpp-6.0pre11/samples/flora/experiments/raytracing-final-correction-20261112/09_reproducibility/walls_exact.csv",
+      "/home/juan/omnetpp-6.0pre11/samples/flora/experiments/raytracing-final-correction-20261112/04_E5_Sionna/common_receivers.csv",
+      "/home/juan/omnetpp-6.0pre11/samples/flora/experiments/raytracing-final-correction-20261112/04_E5_Sionna/rt2d_reflections.csv",
+      "1",
+      "7",
+      "500"
+    ],
+    "returncode": 0,
+    "wall_seconds": 0.6650049979798496
+  },
+  {
+    "label": "S1_reference_south_receivers",
+    "command": [
+      "/home/juan/omnetpp-6.0pre11/samples/flora/experiments/raytracing-final-correction-20261112/runtime/rtprobe",
+      "eval",
+      "/home/juan/omnetpp-6.0pre11/samples/flora/experiments/raytracing-final-correction-20261112/09_reproducibility/walls_exact.csv",
+      "/home/juan/omnetpp-6.0pre11/samples/flora/experiments/raytracing-final-correction-20261112/06_E7_scenarios/S1_reference_south_receivers.csv",
+      "/home/juan/omnetpp-6.0pre11/samples/flora/experiments/raytracing-final-correction-20261112/06_E7_scenarios/S1_reference_south_results.csv",
+      "1",
+      "15",
+      "500"
+    ],
+    "returncode": 0,
+    "wall_seconds": 0.7151124798692763
+  },
+  {
+    "label": "S2_historic_vicinity_receivers",
+    "command": [
+      "/home/juan/omnetpp-6.0pre11/samples/flora/experiments/raytracing-final-correction-20261112/runtime/rtprobe",
+      "eval",
+      "/home/juan/omnetpp-6.0pre11/samples/flora/experiments/raytracing-final-correction-20261112/09_reproducibility/walls_exact.csv",
+      "/home/juan/omnetpp-6.0pre11/samples/flora/experiments/raytracing-final-correction-20261112/06_E7_scenarios/S2_historic_vicinity_receivers.csv",
+      "/home/juan/omnetpp-6.0pre11/samples/flora/experiments/raytracing-final-correction-20261112/06_E7_scenarios/S2_historic_vicinity_results.csv",
+      "1",
+      "15",
+      "500"
+    ],
+    "returncode": 0,
+    "wall_seconds": 4.822154004126787
+  },
+  {
+    "label": "S3_west_receivers",
+    "command": [
+      "/home/juan/omnetpp-6.0pre11/samples/flora/experiments/raytracing-final-correction-20261112/runtime/rtprobe",
+      "eval",
+      "/home/juan/omnetpp-6.0pre11/samples/flora/experiments/raytracing-final-correction-20261112/09_reproducibility/walls_exact.csv",
+      "/home/juan/omnetpp-6.0pre11/samples/flora/experiments/raytracing-final-correction-20261112/06_E7_scenarios/S3_west_receivers.csv",
+      "/home/juan/omnetpp-6.0pre11/samples/flora/experiments/raytracing-final-correction-20261112/06_E7_scenarios/S3_west_results.csv",
+      "1",
+      "15",
+      "500"
+    ],
+    "returncode": 0,
+    "wall_seconds": 0.11390995373949409
+  },
+  {
+    "label": "S4_west_central_populated_receivers",
+    "command": [
+      "/home/juan/omnetpp-6.0pre11/samples/flora/experiments/raytracing-final-correction-20261112/runtime/rtprobe",
+      "eval",
+      "/home/juan/omnetpp-6.0pre11/samples/flora/experiments/raytracing-final-correction-20261112/09_reproducibility/walls_exact.csv",
+      "/home/juan/omnetpp-6.0pre11/samples/flora/experiments/raytracing-final-correction-20261112/06_E7_scenarios/S4_west_central_populated_receivers.csv",
+      "/home/juan/omnetpp-6.0pre11/samples/flora/experiments/raytracing-final-correction-20261112/06_E7_scenarios/S4_west_central_populated_results.csv",
+      "1",
+      "15",
+      "500"
+    ],
+    "returncode": 0,
+    "wall_seconds": 4.120830705855042
+  },
+  {
+    "label": "real_100",
+    "command": [
+      "/home/juan/omnetpp-6.0pre11/samples/flora/experiments/raytracing-final-correction-20261112/runtime/rtprobe",
+      "eval",
+      "/home/juan/omnetpp-6.0pre11/samples/flora/experiments/raytracing-final-correction-20261112/07_E8_scalability/scenes/real_100.csv",
+      "/home/juan/omnetpp-6.0pre11/samples/flora/experiments/raytracing-final-correction-20261112/07_E8_scalability/real_receivers.csv",
+      "/home/juan/omnetpp-6.0pre11/samples/flora/experiments/raytracing-final-correction-20261112/07_E8_scalability/real_100_results.csv",
+      "6",
+      "15",
+      "500"
+    ],
+    "returncode": 0,
+    "wall_seconds": 0.11391585599631071
+  },
+  {
+    "label": "real_1000",
+    "command": [
+      "/home/juan/omnetpp-6.0pre11/samples/flora/experiments/raytracing-final-correction-20261112/runtime/rtprobe",
+      "eval",
+      "/home/juan/omnetpp-6.0pre11/samples/flora/experiments/raytracing-final-correction-20261112/07_E8_scalability/scenes/real_1000.csv",
+      "/home/juan/omnetpp-6.0pre11/samples/flora/experiments/raytracing-final-correction-20261112/07_E8_scalability/real_receivers.csv",
+      "/home/juan/omnetpp-6.0pre11/samples/flora/experiments/raytracing-final-correction-20261112/07_E8_scalability/real_1000_results.csv",
+      "6",
+      "15",
+      "500"
+    ],
+    "returncode": 0,
+    "wall_seconds": 0.1639420040883124
+  },
+  {
+    "label": "real_2000",
+    "command": [
+      "/home/juan/omnetpp-6.0pre11/samples/flora/experiments/raytracing-final-correction-20261112/runtime/rtprobe",
+      "eval",
+      "/home/juan/omnetpp-6.0pre11/samples/flora/experiments/raytracing-final-correction-20261112/07_E8_scalability/scenes/real_2000.csv",
+      "/home/juan/omnetpp-6.0pre11/samples/flora/experiments/raytracing-final-correction-20261112/07_E8_scalability/real_receivers.csv",
+      "/home/juan/omnetpp-6.0pre11/samples/flora/experiments/raytracing-final-correction-20261112/07_E8_scalability/real_2000_results.csv",
+      "6",
+      "15",
+      "500"
+    ],
+    "returncode": 0,
+    "wall_seconds": 0.21404171083122492
+  },
+  {
+    "label": "real_2721",
+    "command": [
+      "/home/juan/omnetpp-6.0pre11/samples/flora/experiments/raytracing-final-correction-20261112/runtime/rtprobe",
+      "eval",
+      "/home/juan/omnetpp-6.0pre11/samples/flora/experiments/raytracing-final-correction-20261112/07_E8_scalability/scenes/real_2721.csv",
+      "/home/juan/omnetpp-6.0pre11/samples/flora/experiments/raytracing-final-correction-20261112/07_E8_scalability/real_receivers.csv",
+      "/home/juan/omnetpp-6.0pre11/samples/flora/experiments/raytracing-final-correction-20261112/07_E8_scalability/real_2721_results.csv",
+      "6",
+      "15",
+      "500"
+    ],
+    "returncode": 0,
+    "wall_seconds": 0.2643082709982991
+  },
+  {
+    "label": "real_500",
+    "command": [
+      "/home/juan/omnetpp-6.0pre11/samples/flora/experiments/raytracing-final-correction-20261112/runtime/rtprobe",
+      "eval",
+      "/home/juan/omnetpp-6.0pre11/samples/flora/experiments/raytracing-final-correction-20261112/07_E8_scalability/scenes/real_500.csv",
+      "/home/juan/omnetpp-6.0pre11/samples/flora/experiments/raytracing-final-correction-20261112/07_E8_scalability/real_receivers.csv",
+      "/home/juan/omnetpp-6.0pre11/samples/flora/experiments/raytracing-final-correction-20261112/07_E8_scalability/real_500_results.csv",
+      "6",
+      "15",
+      "500"
+    ],
+    "returncode": 0,
+    "wall_seconds": 0.16407101601362228
+  },
+  {
+    "label": "synthetic_1000",
+    "command": [
+      "/home/juan/omnetpp-6.0pre11/samples/flora/experiments/raytracing-final-correction-20261112/runtime/rtprobe",
+      "eval",
+      "/home/juan/omnetpp-6.0pre11/samples/flora/experiments/raytracing-final-correction-20261112/07_E8_scalability/scenes/synthetic_1000.csv",
+      "/home/juan/omnetpp-6.0pre11/samples/flora/experiments/raytracing-final-correction-20261112/07_E8_scalability/synthetic_receivers.csv",
+      "/home/juan/omnetpp-6.0pre11/samples/flora/experiments/raytracing-final-correction-20261112/07_E8_scalability/synthetic_1000_results.csv",
+      "6",
+      "15",
+      "500"
+    ],
+    "returncode": 0,
+    "wall_seconds": 0.1643740232102573
+  },
+  {
+    "label": "synthetic_2000",
+    "command": [
+      "/home/juan/omnetpp-6.0pre11/samples/flora/experiments/raytracing-final-correction-20261112/runtime/rtprobe",
+      "eval",
+      "/home/juan/omnetpp-6.0pre11/samples/flora/experiments/raytracing-final-correction-20261112/07_E8_scalability/scenes/synthetic_2000.csv",
+      "/home/juan/omnetpp-6.0pre11/samples/flora/experiments/raytracing-final-correction-20261112/07_E8_scalability/synthetic_receivers.csv",
+      "/home/juan/omnetpp-6.0pre11/samples/flora/experiments/raytracing-final-correction-20261112/07_E8_scalability/synthetic_2000_results.csv",
+      "6",
+      "15",
+      "500"
+    ],
+    "returncode": 0,
+    "wall_seconds": 0.21412318386137486
+  },
+  {
+    "label": "synthetic_4000",
+    "command": [
+      "/home/juan/omnetpp-6.0pre11/samples/flora/experiments/raytracing-final-correction-20261112/runtime/rtprobe",
+      "eval",
+      "/home/juan/omnetpp-6.0pre11/samples/flora/experiments/raytracing-final-correction-20261112/07_E8_scalability/scenes/synthetic_4000.csv",
+      "/home/juan/omnetpp-6.0pre11/samples/flora/experiments/raytracing-final-correction-20261112/07_E8_scalability/synthetic_receivers.csv",
+      "/home/juan/omnetpp-6.0pre11/samples/flora/experiments/raytracing-final-correction-20261112/07_E8_scalability/synthetic_4000_results.csv",
+      "6",
+      "15",
+      "500"
+    ],
+    "returncode": 0,
+    "wall_seconds": 0.21443035826086998
+  },
+  {
+    "label": "synthetic_500",
+    "command": [
+      "/home/juan/omnetpp-6.0pre11/samples/flora/experiments/raytracing-final-correction-20261112/runtime/rtprobe",
+      "eval",
+      "/home/juan/omnetpp-6.0pre11/samples/flora/experiments/raytracing-final-correction-20261112/07_E8_scalability/scenes/synthetic_500.csv",
+      "/home/juan/omnetpp-6.0pre11/samples/flora/experiments/raytracing-final-correction-20261112/07_E8_scalability/synthetic_receivers.csv",
+      "/home/juan/omnetpp-6.0pre11/samples/flora/experiments/raytracing-final-correction-20261112/07_E8_scalability/synthetic_500_results.csv",
+      "6",
+      "15",
+      "500"
+    ],
+    "returncode": 0,
+    "wall_seconds": 0.16406121803447604
+  },
+  {
+    "label": "synthetic_8000",
+    "command": [
+      "/home/juan/omnetpp-6.0pre11/samples/flora/experiments/raytracing-final-correction-20261112/runtime/rtprobe",
+      "eval",
+      "/home/juan/omnetpp-6.0pre11/samples/flora/experiments/raytracing-final-correction-20261112/07_E8_scalability/scenes/synthetic_8000.csv",
+      "/home/juan/omnetpp-6.0pre11/samples/flora/experiments/raytracing-final-correction-20261112/07_E8_scalability/synthetic_receivers.csv",
+      "/home/juan/omnetpp-6.0pre11/samples/flora/experiments/raytracing-final-correction-20261112/07_E8_scalability/synthetic_8000_results.csv",
+      "6",
+      "15",
+      "500"
+    ],
+    "returncode": 0,
+    "wall_seconds": 0.2641754620708525
+  },
+  {
+    "label": "receiver_count_1",
+    "command": [
+      "/home/juan/omnetpp-6.0pre11/samples/flora/experiments/raytracing-final-correction-20261112/runtime/rtprobe",
+      "eval",
+      "/home/juan/omnetpp-6.0pre11/samples/flora/experiments/raytracing-final-correction-20261112/09_reproducibility/walls_exact.csv",
+      "/home/juan/omnetpp-6.0pre11/samples/flora/experiments/raytracing-final-correction-20261112/07_E8_scalability/receivers_1.csv",
+      "/home/juan/omnetpp-6.0pre11/samples/flora/experiments/raytracing-final-correction-20261112/07_E8_scalability/receiver_count_1_results.csv",
+      "4",
+      "15",
+      "500"
+    ],
+    "returncode": 0,
+    "wall_seconds": 0.06382592720910907
+  },
+  {
+    "label": "receiver_count_16",
+    "command": [
+      "/home/juan/omnetpp-6.0pre11/samples/flora/experiments/raytracing-final-correction-20261112/runtime/rtprobe",
+      "eval",
+      "/home/juan/omnetpp-6.0pre11/samples/flora/experiments/raytracing-final-correction-20261112/09_reproducibility/walls_exact.csv",
+      "/home/juan/omnetpp-6.0pre11/samples/flora/experiments/raytracing-final-correction-20261112/07_E8_scalability/receivers_16.csv",
+      "/home/juan/omnetpp-6.0pre11/samples/flora/experiments/raytracing-final-correction-20261112/07_E8_scalability/receiver_count_16_results.csv",
+      "4",
+      "15",
+      "500"
+    ],
+    "returncode": 0,
+    "wall_seconds": 0.6647523730061948
+  },
+  {
+    "label": "receiver_count_64",
+    "command": [
+      "/home/juan/omnetpp-6.0pre11/samples/flora/experiments/raytracing-final-correction-20261112/runtime/rtprobe",
+      "eval",
+      "/home/juan/omnetpp-6.0pre11/samples/flora/experiments/raytracing-final-correction-20261112/09_reproducibility/walls_exact.csv",
+      "/home/juan/omnetpp-6.0pre11/samples/flora/experiments/raytracing-final-correction-20261112/07_E8_scalability/receivers_64.csv",
+      "/home/juan/omnetpp-6.0pre11/samples/flora/experiments/raytracing-final-correction-20261112/07_E8_scalability/receiver_count_64_results.csv",
+      "4",
+      "15",
+      "500"
+    ],
+    "returncode": 0,
+    "wall_seconds": 2.7183253141120076
+  },
+  {
+    "label": "receiver_count_256",
+    "command": [
+      "/home/juan/omnetpp-6.0pre11/samples/flora/experiments/raytracing-final-correction-20261112/runtime/rtprobe",
+      "eval",
+      "/home/juan/omnetpp-6.0pre11/samples/flora/experiments/raytracing-final-correction-20261112/09_reproducibility/walls_exact.csv",
+      "/home/juan/omnetpp-6.0pre11/samples/flora/experiments/raytracing-final-correction-20261112/07_E8_scalability/receivers_256.csv",
+      "/home/juan/omnetpp-6.0pre11/samples/flora/experiments/raytracing-final-correction-20261112/07_E8_scalability/receiver_count_256_results.csv",
+      "4",
+      "15",
+      "500"
+    ],
+    "returncode": 0,
+    "wall_seconds": 9.630419375840575
+  }
+]

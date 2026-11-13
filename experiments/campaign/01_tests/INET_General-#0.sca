@@ -1,0 +1,99 @@
+version 3
+run General-0-20261112-16:26:10-123
+attr configname General
+attr datetime 20261112-16:26:10
+attr datetimef 20261112-162610
+attr experiment General
+attr inifile omnetpp.ini
+attr iterationvars ""
+attr iterationvarsd ""
+attr iterationvarsf ""
+attr measurement ""
+attr network InetAdapterScenario
+attr processid 123
+attr repetition 0
+attr replication #0
+attr resultdir results
+attr runnumber 0
+attr seedset 0
+config network InetAdapterScenario
+config result-dir results
+config *.radioMedium.pathLoss.walls "\"\""
+config *.radioMedium.backgroundNoise.power -110dBm
+
+scalar InetAdapterScenario.probe lossFactor1km 6.7831392149552e-10
+scalar InetAdapterScenario.probe pathLossDb1km 91.68569269524
+par InetAdapterScenario.radioMedium.propagation typename "\"inet.physicallayer.wireless.common.propagation.ConstantSpeedPropagation\""
+par InetAdapterScenario.radioMedium.propagation propagationSpeed 2.99792e+08mps
+attr unit mps
+par InetAdapterScenario.radioMedium.propagation ignoreMovementDuringTransmission true
+par InetAdapterScenario.radioMedium.propagation ignoreMovementDuringPropagation true
+par InetAdapterScenario.radioMedium.propagation ignoreMovementDuringReception true
+scalar InetAdapterScenario.radioMedium.propagation "Arrival computation count" 0
+par InetAdapterScenario.radioMedium.analogModel typename "\"inet.physicallayer.wireless.common.analogmodel.packetlevel.ScalarAnalogModel\""
+par InetAdapterScenario.radioMedium.analogModel ignorePartialInterference false
+par InetAdapterScenario.radioMedium.backgroundNoise typename "\"inet.physicallayer.wireless.common.backgroundnoise.IsotropicScalarBackgroundNoise\""
+par InetAdapterScenario.radioMedium.backgroundNoise power -110dBm
+attr unit dBm
+par InetAdapterScenario.radioMedium.backgroundNoise bandwidth "nan Hz"
+attr unit Hz
+par InetAdapterScenario.radioMedium.pathLoss typename "\"RayTracing2DInetPathLoss\""
+par InetAdapterScenario.radioMedium.pathLoss walls "\"\""
+par InetAdapterScenario.radioMedium.pathLoss frequencyFallback 9.16e+08Hz
+attr unit Hz
+par InetAdapterScenario.radioMedium.pathLoss enableFirstOrderReflections true
+par InetAdapterScenario.radioMedium.pathLoss enableDiffraction true
+par InetAdapterScenario.radioMedium.pathLoss coherentCombination true
+par InetAdapterScenario.radioMedium.mediumLimitCache typename "\"inet.physicallayer.wireless.common.medium.MediumLimitCache\""
+par InetAdapterScenario.radioMedium.mediumLimitCache centerFrequency "nan Hz"
+attr unit Hz
+par InetAdapterScenario.radioMedium.mediumLimitCache maxSpeed "nan mps"
+attr unit mps
+par InetAdapterScenario.radioMedium.mediumLimitCache maxTransmissionPower "nan W"
+attr unit W
+par InetAdapterScenario.radioMedium.mediumLimitCache minInterferencePower "nan dBm"
+attr unit dBm
+par InetAdapterScenario.radioMedium.mediumLimitCache minReceptionPower "nan dBm"
+attr unit dBm
+par InetAdapterScenario.radioMedium.mediumLimitCache maxAntennaGain 0dB
+attr unit dB
+par InetAdapterScenario.radioMedium.mediumLimitCache minInterferenceTime 1e-12s
+attr unit s
+par InetAdapterScenario.radioMedium.mediumLimitCache maxTransmissionDuration 0.01s
+attr unit s
+par InetAdapterScenario.radioMedium.mediumLimitCache maxCommunicationRange "nan m"
+attr unit m
+par InetAdapterScenario.radioMedium.mediumLimitCache maxInterferenceRange "nan m"
+attr unit m
+par InetAdapterScenario.radioMedium.communicationCache typename "\"inet.physicallayer.wireless.common.communicationcache.VectorCommunicationCache\""
+par InetAdapterScenario.radioMedium typename "\"inet.physicallayer.wireless.common.medium.RadioMedium\""
+par InetAdapterScenario.radioMedium physicalEnvironmentModule "\"physicalEnvironment\""
+par InetAdapterScenario.radioMedium signalAnalogRepresentation "\"scalar\""
+attr enum unitDisk,scalar,dimensional
+par InetAdapterScenario.radioMedium rangeFilter "\"\""
+par InetAdapterScenario.radioMedium radioModeFilter false
+par InetAdapterScenario.radioMedium listeningFilter false
+par InetAdapterScenario.radioMedium macAddressFilter false
+par InetAdapterScenario.radioMedium recordTransmissionLog false
+par InetAdapterScenario.radioMedium recordReceptionLog false
+scalar InetAdapterScenario.radioMedium "transmission count" 0
+scalar InetAdapterScenario.radioMedium "signal send count" 0
+scalar InetAdapterScenario.radioMedium "reception computation count" 0
+scalar InetAdapterScenario.radioMedium "interference computation count" 0
+scalar InetAdapterScenario.radioMedium "reception decision computation count" 0
+scalar InetAdapterScenario.radioMedium "listening decision computation count" 0
+scalar InetAdapterScenario.radioMedium "reception cache hit" -nan
+attr unit %
+scalar InetAdapterScenario.radioMedium "interference cache hit" -nan
+attr unit %
+scalar InetAdapterScenario.radioMedium "noise cache hit" -nan
+attr unit %
+scalar InetAdapterScenario.radioMedium "snir cache hit" -nan
+attr unit %
+scalar InetAdapterScenario.radioMedium "reception decision cache hit" -nan
+attr unit %
+scalar InetAdapterScenario.radioMedium "reception result cache hit" -nan
+attr unit %
+par InetAdapterScenario.probe typename "\"InetPathLossProbe\""
+par InetAdapterScenario typename "\"InetAdapterScenario\""
+

@@ -1,0 +1,30 @@
+PASS 63 unique receiver identities
+PASS 63 unique receiver coordinates; central receiver occurs once
+PASS central receiver not replicated in input sweeps
+PASS independent geometry: 46 valid, 17 blocked/contact positions
+PASS 733 engine/scene/position/seed rows, including 63 new RT2D positions
+PASS RT2D presence agrees with independent full-building geometry at every position
+PASS RT2D distance tolerance 1e-8 m
+PASS RT2D independent TE power tolerance 1e-7 dB
+PASS matlab A_original: 63 positions, 7 route-presence results
+PASS matlab B_e27_flip: 63 positions, 7 route-presence results
+PASS matlab C_all_flip: 63 positions, 7 route-presence results
+PASS sionna A_original: 63 positions, 54 route-presence results
+PASS sionna B_e27_flip: 63 positions, 54 route-presence results
+PASS sionna C_all_flip: 63 positions, 54 route-presence results
+PASS A/B/C equivalent physical geometry, normals, contours and coverage
+PASS equivalent e30 refinements verified separately
+PASS every common facade matches complete archived geometry exactly
+PASS 14182 full-map walls and 2721 building owners
+PASS MATLAB A_original: exclusion localized to candidate visibility with explicit recovery
+PASS MATLAB B_e27_flip: exclusion localized to candidate visibility with explicit recovery
+PASS MATLAB C_all_flip: exclusion localized to candidate visibility with explicit recovery
+PASS MATLAB refined central path recovered
+PASS all four Sionna central refined representatives preserved on same primitive pair
+PASS raw Sionna refined coherent power retained; no silent deduplication
+PASS every target representative has two exported ordered interactions
+PASS two-seed transition control has identical presence and multiplicity counts
+PASS scientific F source identical to archived v2 hashes
+PASS 25 original groups + 11 F groups + permanent M50 regression passed
+PASS all 1002 v2 manifest files remain intact at diagnostic completion
+ALL DIAGNOSTIC EVIDENCE CHECKS PASSED

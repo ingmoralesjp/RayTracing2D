@@ -1,0 +1,2 @@
+path_id,type,reflection_order,diffraction_order,distance_m,delay_s,path_loss_db,phase_rad,received_power_dbm,reflection_magnitude,reflection_phase_rad,material_model_in_range,diffraction_v,diffraction_loss_db,interactions,points
+DIFF1_osm_545972841_e0_A,DIFFRACTION,0,1,243.108139231,8.1092146498e-07,94.6906402199,4.95419138023,-80.6906402199,1,0,1,0.102606780205,6.92264217952,"DIFFRACTION@osm_545972841_e0@concrete","(1838.75:465)->(1822.17:363.552)->(1800:225)"

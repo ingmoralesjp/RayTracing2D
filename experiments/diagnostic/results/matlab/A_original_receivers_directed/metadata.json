@@ -1,0 +1,21 @@
+{
+  "engine": "MATLAB",
+  "version": "25.1.0.2943329 (R2025a)",
+  "scene": "A_original",
+  "receivers": 24,
+  "rx_file": "/home/juan/omnetpp-6.0pre11/samples/flora/experiments/raytracing-m50-diagnostic-20261112/inputs/receivers_directed.csv",
+  "seconds": 0.817831,
+  "API": "comm.Ray.Interactions(q).Location/Type; unique finite-facade mapping <=1e-4 m, recording actual and second-nearest distances; no public primitive index",
+  "frequency_hz": 2.4E+9,
+  "tx_dbm": 14,
+  "polarization": "V/TE",
+  "eps_r": 5.24,
+  "sigma_Sm": 0.091631165125812944,
+  "z_facades_m": [
+    -25,
+    25
+  ],
+  "max_reflections": 2,
+  "max_path_m": 500,
+  "max_absolute_pathloss_db": 314
+}

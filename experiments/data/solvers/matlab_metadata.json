@@ -1,0 +1,21 @@
+{
+  "version": "25.1.0.2943329 (R2025a)",
+  "method": "image",
+  "reflections": 2,
+  "diffraction": false,
+  "frequency_hz": 2.4E+9,
+  "tx_dbm": 14,
+  "relative_permittivity": 5.24,
+  "conductivity_sm": 0.091631165125812944,
+  "walls": 1218,
+  "receivers": 79,
+  "elapsed_batch_seconds": 1.722379,
+  "wall_vertical_extent_m": [
+    -25,
+    25
+  ],
+  "terminal_height_m": 1.5,
+  "ground_and_roofs": false,
+  "polarization": "vertical Z, TE for horizontal propagation; horizontal component -300dB",
+  "note": "Controlled reflection-only comparison; cannot validate RT2D knife-edge D1 or 3D urban accuracy"
+}

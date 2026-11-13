@@ -1,0 +1,2 @@
+path_id,type,reflection_order,diffraction_order,distance_m,delay_s,path_loss_db,phase_rad,received_power_dbm,reflection_magnitude,reflection_phase_rad,material_model_in_range,diffraction_v,diffraction_loss_db,interactions,points
+LOS,LOS,0,0,269.258240357,8.98148813192e-07,88.6553881218,2.7824981725,-74.6553881218,1,0,1,0,0,"","(1838.75:465)->(1938.75:215)"

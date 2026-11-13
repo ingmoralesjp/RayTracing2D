@@ -1,0 +1,12 @@
+{
+  "samples_per_source": 1000000,
+  "seeds": [
+    42,
+    73
+  ],
+  "all_receivers": 79,
+  "same_path_count": 79,
+  "finite_pairs": 33,
+  "max_power_difference_db": 0.0017965033253375395,
+  "note": "seed sensitivity only; no D1 validation or field measurement"
+}

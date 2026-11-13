@@ -1,0 +1,425 @@
+version 3
+run Thesis_P03_TE_Incoherent-0-20261112-16:24:00-149
+attr configname Thesis_P03_TE_Incoherent
+attr datetime 20261112-16:24:00
+attr datetimef 20261112-162400
+attr experiment Thesis_P03_TE_Incoherent
+attr inifile /home/juan/omnetpp-6.0pre11/samples/flora/experiments/raytracing-final-correction-20261112/reviewer.ini
+attr iterationvars ""
+attr iterationvarsd ""
+attr iterationvarsf ""
+attr measurement ""
+attr network RayTracingScenario
+attr processid 149
+attr repetition 0
+attr replication #0
+attr resultdir /home/juan/omnetpp-6.0pre11/samples/flora/experiments/raytracing-final-correction-20261112/raw
+attr runnumber 0
+attr seedset 0
+config result-dir /home/juan/omnetpp-6.0pre11/samples/flora/experiments/raytracing-final-correction-20261112/raw
+config extends Thesis_P01_TE_Coherent
+config description "P03 - change ONLY coherent -> incoherent path-power combination"
+config *.tracer.coherentCombination false
+config *.tracer.outputCsv "\"/home/juan/omnetpp-6.0pre11/samples/flora/experiments/raytracing-final-correction-20261112/raw/Thesis_P03_TE_Incoherent-rays.csv\""
+config extends Thesis_T02_LoS_R1R2
+config description "P01 - TE coherent reference (same as T02 physics)"
+config *.tracer.polarization "\"TE\""
+config *.tracer.coherentCombination true
+config *.tracer.outputCsv "\"/home/juan/omnetpp-6.0pre11/samples/flora/experiments/raytracing-final-correction-20261112/raw/Thesis_P01_TE_Coherent-rays.csv\""
+config extends Thesis_Zacatecas_Base
+config description "T02 - canonical urban regression: LoS + R1 + R2"
+config *.tracer.enableLos true
+config *.tracer.enableFirstOrderReflections true
+config *.tracer.enableSecondOrderReflections true
+config *.tracer.enableDiffraction false
+config *.tracer.outputCsv "\"/home/juan/omnetpp-6.0pre11/samples/flora/experiments/raytracing-final-correction-20261112/raw/Thesis_T02_LoS_R1R2-rays.csv\""
+config extends UrbanStudentMapVisualLocal
+config description "v1.6 Thesis Release base: real Zacatecas OSM, fixed TX, 2.4 GHz TE coherent"
+config *.tracer.osmFile "\"data/student/zacatecas_student.osm\""
+config *.tracer.osmOriginLatDeg 22.7569500
+config *.tracer.osmOriginLonDeg -102.6002500
+config *.tracer.txX 1838.748m
+config *.tracer.txY 465m
+config *.tracer.rxX 1938.748m
+config *.tracer.rxY 215m
+config *.tracer.frequency 2.4GHz
+config *.tracer.txPowerDbm 14
+config *.tracer.reflectionModel "\"fresnel\""
+config *.tracer.polarization "\"TE\""
+config *.tracer.coherentCombination true
+config *.tracer.osmDefaultMaterial "\"concrete\""
+config *.tracer.osmForceMaterial "\"\""
+config *.tracer.maxPathDistance 500m
+config *.tracer.minPathPowerDbm -300
+config *.tracer.maxIncidenceAngleDeg 90
+config *.tracer.maxPathsPerReceiver 0
+config *.tracer.enableGrid false
+config *.tracer.drawWallLabels false
+config *.tracer.drawRayLabels true
+config *.tracer.maxRayPathsToDraw 24
+config extends UrbanStudentMapImportCheck
+config description "v1.5.1 local Qtenv viewport around the thesis GW area"
+config *.tracer.viewAutoFit false
+config *.tracer.viewWorldMinX 1500m
+config *.tracer.viewWorldMaxX 2200m
+config *.tracer.viewWorldMinY 100m
+config *.tracer.viewWorldMaxY 800m
+config *.tracer.outputCsv "\"/home/juan/omnetpp-6.0pre11/samples/flora/experiments/raytracing-final-correction-20261112/raw/UrbanStudentMapVisualLocal-rays.csv\""
+config extends UrbanBase
+config description "v1.5.1 full Zacatecas OSM import + north-up Qtenv auto-fit; no grid/reflections"
+config *.tracer.osmFile "\"data/student/zacatecas_student.osm\""
+config *.tracer.osmOriginLatDeg 22.7569500
+config *.tracer.osmOriginLonDeg -102.6002500
+config *.tracer.txX 1813.748m
+config *.tracer.txY 490.000m
+config *.tracer.rxX 1913.748m
+config *.tracer.rxY 490.000m
+config *.tracer.enableGrid false
+config *.tracer.enableLos true
+config *.tracer.enableFirstOrderReflections false
+config *.tracer.enableSecondOrderReflections false
+config *.tracer.enableDiffraction false
+config *.tracer.drawWallLabels false
+config *.tracer.drawRayLabels false
+config *.tracer.viewAutoFit true
+config *.tracer.drawBuildingFootprints true
+config *.tracer.fillBuildingFootprints true
+config *.tracer.drawRawOsmWalls false
+config *.tracer.gridOutputCsv "\"\""
+config *.tracer.outputCsv "\"/home/juan/omnetpp-6.0pre11/samples/flora/experiments/raytracing-final-correction-20261112/raw/UrbanStudentMapImportCheck-rays.csv\""
+config description "v1.1 shared urban geometry and grid"
+config *.tracer.frequency 2.4GHz
+config *.tracer.txPowerDbm 14
+config *.tracer.txX 22m
+config *.tracer.txY 92m
+config *.tracer.rxX 205m
+config *.tracer.rxY 92m
+config *.tracer.walls "\"\""
+config *.tracer.osmFile "\"data/urban_small.osm\""
+config *.tracer.osmOriginLatDeg 23.0
+config *.tracer.osmOriginLonDeg -106.0
+config *.tracer.osmDefaultMaterial "\"concrete\""
+config *.tracer.reflectionModel "\"fresnel\""
+config *.tracer.polarization "\"TE\""
+config *.tracer.coherentCombination true
+config *.tracer.enableGrid true
+config *.tracer.gridMode "\"raytracing\""
+config *.tracer.gridMinX 5m
+config *.tracer.gridMaxX 215m
+config *.tracer.gridMinY 5m
+config *.tracer.gridMaxY 215m
+config *.tracer.gridStepX 10m
+config *.tracer.gridStepY 10m
+config *.tracer.heatmapMetric "\"receivedPowerDbm\""
+config *.tracer.heatmapMinDbm -120
+config *.tracer.heatmapMaxDbm -35
+config *.tracer.drawWallLabels false
+config *.tracer.drawRayLabels true
+config *.tracer.maxRayPathsToDraw 24
+config network RayTracingScenario
+config result-dir results
+config output-scalar-file /home/juan/omnetpp-6.0pre11/samples/flora/experiments/raytracing-final-correction-20261112/raw/Thesis_P03_TE_Incoherent-0.sca
+config output-vector-file /home/juan/omnetpp-6.0pre11/samples/flora/experiments/raytracing-final-correction-20261112/raw/Thesis_P03_TE_Incoherent-0.vec
+config *.tracer.frequency 2.4GHz
+config *.tracer.txPowerDbm 14
+config *.tracer.reflectionModel "\"fresnel\""
+config *.tracer.polarization "\"TE\""
+config *.tracer.coherentCombination true
+config *.tracer.reflectionLossDb 6
+config *.tracer.reflectionPhaseShiftDeg 180
+config *.tracer.enableLos true
+config *.tracer.enableFirstOrderReflections true
+config *.tracer.enableSecondOrderReflections false
+config *.tracer.enableDiffraction false
+config *.tracer.maxPathsPerReceiver 0
+config *.tracer.minPathPowerDbm -300
+config *.tracer.maxPathDistance 0m
+config *.tracer.maxIncidenceAngleDeg 90
+config *.tracer.osmFile "\"\""
+config *.tracer.osmOriginLatDeg 0
+config *.tracer.osmOriginLonDeg 0
+config *.tracer.osmDefaultMaterial "\"concrete\""
+config *.tracer.osmForceMaterial "\"\""
+config *.tracer.walls "\"\""
+config *.tracer.enableGrid false
+config *.tracer.gridMode "\"raytracing\""
+config *.tracer.gridOutputCsv "\"\""
+config *.tracer.heatmapMetric "\"receivedPowerDbm\""
+config *.tracer.heatmapMinDbm -120
+config *.tracer.heatmapMaxDbm -35
+config *.tracer.heatmapPathCountMax 12
+config *.tracer.heatmapDelaySpreadMaxNs 1000
+config *.tracer.numericalTolerance 1e-8
+config *.tracer.drawScene true
+config *.tracer.viewAutoFit true
+config *.tracer.viewCanvasWidth 1200
+config *.tracer.viewCanvasHeight 800
+config *.tracer.viewMargin 35
+config *.tracer.viewNorthUp true
+config *.tracer.viewWorldMinX 0m
+config *.tracer.viewWorldMaxX 1000m
+config *.tracer.viewWorldMinY 0m
+config *.tracer.viewWorldMaxY 1000m
+config *.tracer.drawBuildingFootprints true
+config *.tracer.fillBuildingFootprints true
+config *.tracer.drawRawOsmWalls false
+config *.tracer.drawMapDecorations true
+config *.tracer.drawWallLabels true
+config *.tracer.drawRayLabels true
+config *.tracer.maxRayPathsToDraw 0
+config *.tracer.markerRadius 6
+config *.tracer.summaryX 12
+config *.tracer.summaryY 12
+config *.tracer.outputCsv "\"\""
+
+scalar RayTracingScenario.tracer osmNodeCount 25214
+scalar RayTracingScenario.tracer osmBuildingCount 2721
+scalar RayTracingScenario.tracer wallCount 14182
+scalar RayTracingScenario.tracer viewWorldMinX 1500
+scalar RayTracingScenario.tracer viewWorldMaxX 2200
+scalar RayTracingScenario.tracer viewWorldMinY 100
+scalar RayTracingScenario.tracer viewWorldMaxY 800
+scalar RayTracingScenario.tracer viewScaleCanvasUnitsPerM 1.0428571428571
+scalar RayTracingScenario.tracer gridSampleCount 0
+scalar RayTracingScenario.tracer gridEvaluationSeconds 0
+scalar RayTracingScenario.tracer frequencySweepSampleCount 0
+scalar RayTracingScenario.tracer directBlocked 0
+scalar RayTracingScenario.tracer candidatePaths 10
+scalar RayTracingScenario.tracer numPaths 10
+scalar RayTracingScenario.tracer firstOrderCandidates 260
+scalar RayTracingScenario.tracer firstOrderTheoretical 14182
+scalar RayTracingScenario.tracer firstOrderPruned 13922
+scalar RayTracingScenario.tracer firstOrderValid 4
+scalar RayTracingScenario.tracer secondOrderCandidates 25019
+scalar RayTracingScenario.tracer secondOrderTheoretical 201114942
+scalar RayTracingScenario.tracer secondOrderPruned 201089923
+scalar RayTracingScenario.tracer secondOrderValid 5
+scalar RayTracingScenario.tracer diffractionCandidates 0
+scalar RayTracingScenario.tracer diffractionValid 0
+scalar RayTracingScenario.tracer totalReceivedPowerDbm -70.218767775183
+scalar RayTracingScenario.tracer totalIncoherentPowerDbm -70.218767775183
+scalar RayTracingScenario.tracer equivalentPathLossDb 84.218767775183
+scalar RayTracingScenario.tracer strongestPathPowerDbm -74.655388121825
+scalar RayTracingScenario.tracer meanDelayS 9.180007338841e-07
+scalar RayTracingScenario.tracer rmsDelaySpreadS 5.7657840738634e-08
+scalar RayTracingScenario.tracer maxExcessDelayS 2.6743569480577e-07
+scalar RayTracingScenario.tracer gridFiniteSamples 0
+scalar RayTracingScenario.tracer gridNoPathSamples 0
+scalar RayTracingScenario.tracer gridExteriorSamples 0
+scalar RayTracingScenario.tracer gridInteriorSamples 0
+scalar RayTracingScenario.tracer gridBoundarySamples 0
+scalar RayTracingScenario.tracer gridExcludedTxSamples 0
+scalar RayTracingScenario.tracer txDomainCode 0
+scalar RayTracingScenario.tracer rxDomainCode 0
+scalar RayTracingScenario.tracer gridTotalCandidatePaths 0
+scalar RayTracingScenario.tracer gridTotalRetainedPaths 0
+scalar RayTracingScenario.tracer gridMaterialEvaluatedPaths 0
+scalar RayTracingScenario.tracer gridMaterialOutOfRangePaths 0
+scalar RayTracingScenario.tracer gridCellsWithMaterialExtrapolation 0
+scalar RayTracingScenario.tracer path0_distanceM 269.25824035673
+scalar RayTracingScenario.tracer path0_delayS 8.9814881319238e-07
+scalar RayTracingScenario.tracer path0_pathLossDb 88.655388121825
+scalar RayTracingScenario.tracer path0_phaseRad 2.7824981725003
+scalar RayTracingScenario.tracer path0_receivedPowerDbm -74.655388121825
+scalar RayTracingScenario.tracer path0_reflectionOrder 0
+scalar RayTracingScenario.tracer path0_diffractionOrder 0
+scalar RayTracingScenario.tracer path0_reflectionMagnitude 1
+scalar RayTracingScenario.tracer path0_reflectionPhaseRad 0
+scalar RayTracingScenario.tracer path0_materialModelInRange 1
+scalar RayTracingScenario.tracer path0_diffractionV 0
+scalar RayTracingScenario.tracer path0_diffractionLossDb 0
+scalar RayTracingScenario.tracer path1_distanceM 269.387229846
+scalar RayTracingScenario.tracer path1_delayS 8.9857907581518e-07
+scalar RayTracingScenario.tracer path1_pathLossDb 96.217218339487
+scalar RayTracingScenario.tracer path1_phaseRad 5.6532336805292
+scalar RayTracingScenario.tracer path1_receivedPowerDbm -82.217218339487
+scalar RayTracingScenario.tracer path1_reflectionOrder 1
+scalar RayTracingScenario.tracer path1_diffractionOrder 0
+scalar RayTracingScenario.tracer path1_reflectionMagnitude 0.41890591260937
+scalar RayTracingScenario.tracer path1_reflectionPhaseRad 3.07575769637
+scalar RayTracingScenario.tracer path1_materialModelInRange 1
+scalar RayTracingScenario.tracer path1_diffractionV 0
+scalar RayTracingScenario.tracer path1_diffractionLossDb 0
+scalar RayTracingScenario.tracer path2_distanceM 346.21089467498
+scalar RayTracingScenario.tracer path2_delayS 1.1548352383e-06
+scalar RayTracingScenario.tracer path2_pathLossDb 98.478977704464
+scalar RayTracingScenario.tracer path2_phaseRad 5.5596720241974
+scalar RayTracingScenario.tracer path2_receivedPowerDbm -84.478977704464
+scalar RayTracingScenario.tracer path2_reflectionOrder 1
+scalar RayTracingScenario.tracer path2_diffractionOrder 0
+scalar RayTracingScenario.tracer path2_reflectionMagnitude 0.41494663578121
+scalar RayTracingScenario.tracer path2_reflectionPhaseRad 3.0751241220137
+scalar RayTracingScenario.tracer path2_materialModelInRange 1
+scalar RayTracingScenario.tracer path2_diffractionV 0
+scalar RayTracingScenario.tracer path2_diffractionLossDb 0
+scalar RayTracingScenario.tracer path3_distanceM 270.05574690098
+scalar RayTracingScenario.tracer path3_delayS 9.0080900868087e-07
+scalar RayTracingScenario.tracer path3_pathLossDb 90.687833950603
+scalar RayTracingScenario.tracer path3_phaseRad 3.4899056804926
+scalar RayTracingScenario.tracer path3_receivedPowerDbm -76.687833950603
+scalar RayTracingScenario.tracer path3_reflectionOrder 1
+scalar RayTracingScenario.tracer path3_diffractionOrder 0
+scalar RayTracingScenario.tracer path3_reflectionMagnitude 0.79371050609459
+scalar RayTracingScenario.tracer path3_reflectionPhaseRad 3.1230985630077
+scalar RayTracingScenario.tracer path3_materialModelInRange 1
+scalar RayTracingScenario.tracer path3_diffractionV 0
+scalar RayTracingScenario.tracer path3_diffractionLossDb 0
+scalar RayTracingScenario.tracer path4_distanceM 274.9280073378
+scalar RayTracingScenario.tracer path4_delayS 9.1706112012263e-07
+scalar RayTracingScenario.tracer path4_pathLossDb 92.573848075565
+scalar RayTracingScenario.tracer path4_phaseRad 3.4424892444066
+scalar RayTracingScenario.tracer path4_receivedPowerDbm -78.573848075565
+scalar RayTracingScenario.tracer path4_reflectionOrder 1
+scalar RayTracingScenario.tracer path4_diffractionOrder 0
+scalar RayTracingScenario.tracer path4_reflectionMagnitude 0.65031980956548
+scalar RayTracingScenario.tracer path4_reflectionPhaseRad 3.1075219184954
+scalar RayTracingScenario.tracer path4_materialModelInRange 1
+scalar RayTracingScenario.tracer path4_diffractionV 0
+scalar RayTracingScenario.tracer path4_diffractionLossDb 0
+scalar RayTracingScenario.tracer path5_distanceM 346.34429398016
+scalar RayTracingScenario.tracer path5_delayS 1.1552802104853e-06
+scalar RayTracingScenario.tracer path5_pathLossDb 106.2828504707
+scalar RayTracingScenario.tracer path5_phaseRad 1.9235489843061
+scalar RayTracingScenario.tracer path5_receivedPowerDbm -92.282850470696
+scalar RayTracingScenario.tracer path5_reflectionOrder 2
+scalar RayTracingScenario.tracer path5_diffractionOrder 0
+scalar RayTracingScenario.tracer path5_reflectionMagnitude 0.16903082700138
+scalar RayTracingScenario.tracer path5_reflectionPhaseRad -0.13416175217979
+scalar RayTracingScenario.tracer path5_materialModelInRange 1
+scalar RayTracingScenario.tracer path5_diffractionV 0
+scalar RayTracingScenario.tracer path5_diffractionLossDb 0
+scalar RayTracingScenario.tracer path6_distanceM 270.18411668748
+scalar RayTracingScenario.tracer path6_delayS 9.012372041977e-07
+scalar RayTracingScenario.tracer path6_pathLossDb 98.213891515727
+scalar RayTracingScenario.tracer path6_phaseRad 0.10890458754552
+scalar RayTracingScenario.tracer path6_receivedPowerDbm -84.213891515727
+scalar RayTracingScenario.tracer path6_reflectionOrder 2
+scalar RayTracingScenario.tracer path6_diffractionOrder 0
+scalar RayTracingScenario.tracer path6_reflectionMagnitude 0.33386096288208
+scalar RayTracingScenario.tracer path6_reflectionPhaseRad -0.084051565279535
+scalar RayTracingScenario.tracer path6_materialModelInRange 1
+scalar RayTracingScenario.tracer path6_diffractionV 0
+scalar RayTracingScenario.tracer path6_diffractionLossDb 0
+scalar RayTracingScenario.tracer path7_distanceM 275.04782390211
+scalar RayTracingScenario.tracer path7_delayS 9.1746078516128e-07
+scalar RayTracingScenario.tracer path7_pathLossDb 99.624382863055
+scalar RayTracingScenario.tracer path7_phaseRad 0.4954210651923
+scalar RayTracingScenario.tracer path7_receivedPowerDbm -85.624382863055
+scalar RayTracingScenario.tracer path7_reflectionOrder 2
+scalar RayTracingScenario.tracer path7_diffractionOrder 0
+scalar RayTracingScenario.tracer path7_reflectionMagnitude 0.28892789461839
+scalar RayTracingScenario.tracer path7_reflectionPhaseRad -0.095924771166288
+scalar RayTracingScenario.tracer path7_materialModelInRange 1
+scalar RayTracingScenario.tracer path7_diffractionV 0
+scalar RayTracingScenario.tracer path7_diffractionLossDb 0
+scalar RayTracingScenario.tracer path8_distanceM 349.43344465949
+scalar RayTracingScenario.tracer path8_delayS 1.1655845079981e-06
+scalar RayTracingScenario.tracer path8_pathLossDb 104.11931662063
+scalar RayTracingScenario.tracer path8_phaseRad 3.6359414142381
+scalar RayTracingScenario.tracer path8_receivedPowerDbm -90.119316620634
+scalar RayTracingScenario.tracer path8_reflectionOrder 2
+scalar RayTracingScenario.tracer path8_diffractionOrder 0
+scalar RayTracingScenario.tracer path8_reflectionMagnitude 0.21877567940587
+scalar RayTracingScenario.tracer path8_reflectionPhaseRad -0.11625624196822
+scalar RayTracingScenario.tracer path8_materialModelInRange 1
+scalar RayTracingScenario.tracer path8_diffractionV 0
+scalar RayTracingScenario.tracer path8_diffractionLossDb 0
+scalar RayTracingScenario.tracer path9_distanceM 275.8680455594
+scalar RayTracingScenario.tracer path9_delayS 9.2019675011104e-07
+scalar RayTracingScenario.tracer path9_pathLossDb 95.042116136468
+scalar RayTracingScenario.tracer path9_phaseRad 3.2597880038948
+scalar RayTracingScenario.tracer path9_receivedPowerDbm -81.042116136468
+scalar RayTracingScenario.tracer path9_reflectionOrder 2
+scalar RayTracingScenario.tracer path9_diffractionOrder 0
+scalar RayTracingScenario.tracer path9_reflectionMagnitude 0.49112946940498
+scalar RayTracingScenario.tracer path9_reflectionPhaseRad -0.056475526807307
+scalar RayTracingScenario.tracer path9_materialModelInRange 1
+scalar RayTracingScenario.tracer path9_diffractionV 0
+scalar RayTracingScenario.tracer path9_diffractionLossDb 0
+par RayTracingScenario.tracer typename "\"RayTracing2DModule\""
+par RayTracingScenario.tracer txX 1838.75m
+attr unit m
+par RayTracingScenario.tracer txY 465m
+attr unit m
+par RayTracingScenario.tracer rxX 1938.75m
+attr unit m
+par RayTracingScenario.tracer rxY 215m
+attr unit m
+par RayTracingScenario.tracer walls "\"\""
+par RayTracingScenario.tracer osmFile "\"data/student/zacatecas_student.osm\""
+par RayTracingScenario.tracer osmOriginLatDeg 22.7569
+par RayTracingScenario.tracer osmOriginLonDeg -102.6
+par RayTracingScenario.tracer osmDefaultMaterial "\"concrete\""
+par RayTracingScenario.tracer osmForceMaterial "\"\""
+par RayTracingScenario.tracer frequency 2.4e+09Hz
+attr unit Hz
+par RayTracingScenario.tracer txPowerDbm 14
+par RayTracingScenario.tracer reflectionLossDb 6
+par RayTracingScenario.tracer reflectionPhaseShiftDeg 180
+par RayTracingScenario.tracer reflectionModel "\"fresnel\""
+par RayTracingScenario.tracer polarization "\"TE\""
+par RayTracingScenario.tracer coherentCombination false
+par RayTracingScenario.tracer enableLos true
+par RayTracingScenario.tracer enableFirstOrderReflections true
+par RayTracingScenario.tracer enableSecondOrderReflections true
+par RayTracingScenario.tracer enableDiffraction false
+par RayTracingScenario.tracer maxPathsPerReceiver 0
+par RayTracingScenario.tracer maxPathDistance 500m
+attr unit m
+par RayTracingScenario.tracer minPathPowerDbm -300
+par RayTracingScenario.tracer maxIncidenceAngleDeg 90
+par RayTracingScenario.tracer enableGrid false
+par RayTracingScenario.tracer gridMode "\"raytracing\""
+par RayTracingScenario.tracer gridMinX 5m
+attr unit m
+par RayTracingScenario.tracer gridMaxX 215m
+attr unit m
+par RayTracingScenario.tracer gridMinY 5m
+attr unit m
+par RayTracingScenario.tracer gridMaxY 215m
+attr unit m
+par RayTracingScenario.tracer gridStepX 10m
+attr unit m
+par RayTracingScenario.tracer gridStepY 10m
+attr unit m
+par RayTracingScenario.tracer gridOutputCsv "\"\""
+par RayTracingScenario.tracer enableFrequencySweep false
+par RayTracingScenario.tracer sweepStartFrequency 2.3e+09Hz
+attr unit Hz
+par RayTracingScenario.tracer sweepStopFrequency 2.5e+09Hz
+attr unit Hz
+par RayTracingScenario.tracer sweepPoints 201
+par RayTracingScenario.tracer frequencySweepOutputCsv "\"\""
+par RayTracingScenario.tracer heatmapMetric "\"receivedPowerDbm\""
+par RayTracingScenario.tracer heatmapMinDbm -120
+par RayTracingScenario.tracer heatmapMaxDbm -35
+par RayTracingScenario.tracer heatmapPathCountMax 12
+par RayTracingScenario.tracer heatmapDelaySpreadMaxNs 1000
+par RayTracingScenario.tracer numericalTolerance 1e-08
+par RayTracingScenario.tracer drawScene true
+par RayTracingScenario.tracer viewAutoFit false
+par RayTracingScenario.tracer viewCanvasWidth 1200
+par RayTracingScenario.tracer viewCanvasHeight 800
+par RayTracingScenario.tracer viewMargin 35
+par RayTracingScenario.tracer viewNorthUp true
+par RayTracingScenario.tracer viewWorldMinX 1500m
+attr unit m
+par RayTracingScenario.tracer viewWorldMaxX 2200m
+attr unit m
+par RayTracingScenario.tracer viewWorldMinY 100m
+attr unit m
+par RayTracingScenario.tracer viewWorldMaxY 800m
+attr unit m
+par RayTracingScenario.tracer drawBuildingFootprints true
+par RayTracingScenario.tracer fillBuildingFootprints true
+par RayTracingScenario.tracer drawRawOsmWalls false
+par RayTracingScenario.tracer drawMapDecorations true
+par RayTracingScenario.tracer drawWallLabels false
+par RayTracingScenario.tracer drawRayLabels true
+par RayTracingScenario.tracer maxRayPathsToDraw 24
+par RayTracingScenario.tracer markerRadius 6
+par RayTracingScenario.tracer summaryX 12
+par RayTracingScenario.tracer summaryY 12
+par RayTracingScenario.tracer outputCsv "\"/home/juan/omnetpp-6.0pre11/samples/flora/experiments/raytracing-final-correction-20261112/raw/Thesis_P03_TE_Incoherent-rays.csv\""
+par RayTracingScenario typename "\"RayTracingScenario\""
+

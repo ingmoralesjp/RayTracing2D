@@ -1,0 +1,642 @@
+[
+  {
+    "config": "Thesis_A10_LoS_25m",
+    "command": [
+      "/home/juan/omnetpp-6.0pre11/samples/flora/experiments/raytracing-final-correction-20261112/source/src/raytracing2d",
+      "-u",
+      "Cmdenv",
+      "-n",
+      "../src:.",
+      "-f",
+      "/home/juan/omnetpp-6.0pre11/samples/flora/experiments/raytracing-final-correction-20261112/reviewer.ini",
+      "-c",
+      "Thesis_A10_LoS_25m",
+      "-r",
+      "0",
+      "--result-dir=/home/juan/omnetpp-6.0pre11/samples/flora/experiments/raytracing-final-correction-20261112/raw"
+    ],
+    "returncode": 0,
+    "wall_seconds": 6.3253039279952645,
+    "evidence_type": "new_execution_F"
+  },
+  {
+    "config": "Thesis_A11_LoS_R1_25m",
+    "command": [
+      "/home/juan/omnetpp-6.0pre11/samples/flora/experiments/raytracing-final-correction-20261112/source/src/raytracing2d",
+      "-u",
+      "Cmdenv",
+      "-n",
+      "../src:.",
+      "-f",
+      "/home/juan/omnetpp-6.0pre11/samples/flora/experiments/raytracing-final-correction-20261112/reviewer.ini",
+      "-c",
+      "Thesis_A11_LoS_R1_25m",
+      "-r",
+      "0",
+      "--result-dir=/home/juan/omnetpp-6.0pre11/samples/flora/experiments/raytracing-final-correction-20261112/raw"
+    ],
+    "returncode": 0,
+    "wall_seconds": 6.476239116396755,
+    "evidence_type": "new_execution_F"
+  },
+  {
+    "config": "Thesis_D00_Find_NLoS_D1",
+    "command": [
+      "/home/juan/omnetpp-6.0pre11/samples/flora/experiments/raytracing-final-correction-20261112/source/src/raytracing2d",
+      "-u",
+      "Cmdenv",
+      "-n",
+      "../src:.",
+      "-f",
+      "/home/juan/omnetpp-6.0pre11/samples/flora/experiments/raytracing-final-correction-20261112/reviewer.ini",
+      "-c",
+      "Thesis_D00_Find_NLoS_D1",
+      "-r",
+      "0",
+      "--result-dir=/home/juan/omnetpp-6.0pre11/samples/flora/experiments/raytracing-final-correction-20261112/raw"
+    ],
+    "returncode": 0,
+    "wall_seconds": 8.879412578884512,
+    "evidence_type": "new_execution_F"
+  },
+  {
+    "config": "Thesis_A12_FULL_25m",
+    "command": [
+      "/home/juan/omnetpp-6.0pre11/samples/flora/experiments/raytracing-final-correction-20261112/source/src/raytracing2d",
+      "-u",
+      "Cmdenv",
+      "-n",
+      "../src:.",
+      "-f",
+      "/home/juan/omnetpp-6.0pre11/samples/flora/experiments/raytracing-final-correction-20261112/reviewer.ini",
+      "-c",
+      "Thesis_A12_FULL_25m",
+      "-r",
+      "0",
+      "--result-dir=/home/juan/omnetpp-6.0pre11/samples/flora/experiments/raytracing-final-correction-20261112/raw"
+    ],
+    "returncode": 0,
+    "wall_seconds": 8.97905103629455,
+    "evidence_type": "new_execution_F"
+  },
+  {
+    "config": "Thesis_D01_NLoS_Blockage",
+    "command": [
+      "/home/juan/omnetpp-6.0pre11/samples/flora/experiments/raytracing-final-correction-20261112/source/src/raytracing2d",
+      "-u",
+      "Cmdenv",
+      "-n",
+      "../src:.",
+      "-f",
+      "/home/juan/omnetpp-6.0pre11/samples/flora/experiments/raytracing-final-correction-20261112/reviewer.ini",
+      "-c",
+      "Thesis_D01_NLoS_Blockage",
+      "-r",
+      "0",
+      "--result-dir=/home/juan/omnetpp-6.0pre11/samples/flora/experiments/raytracing-final-correction-20261112/raw"
+    ],
+    "returncode": 0,
+    "wall_seconds": 6.2732707830145955,
+    "evidence_type": "new_execution_F"
+  },
+  {
+    "config": "Thesis_D02_NLoS_R1",
+    "command": [
+      "/home/juan/omnetpp-6.0pre11/samples/flora/experiments/raytracing-final-correction-20261112/source/src/raytracing2d",
+      "-u",
+      "Cmdenv",
+      "-n",
+      "../src:.",
+      "-f",
+      "/home/juan/omnetpp-6.0pre11/samples/flora/experiments/raytracing-final-correction-20261112/reviewer.ini",
+      "-c",
+      "Thesis_D02_NLoS_R1",
+      "-r",
+      "0",
+      "--result-dir=/home/juan/omnetpp-6.0pre11/samples/flora/experiments/raytracing-final-correction-20261112/raw"
+    ],
+    "returncode": 0,
+    "wall_seconds": 6.474291641730815,
+    "evidence_type": "new_execution_F"
+  },
+  {
+    "config": "Thesis_D03_NLoS_R1R2",
+    "command": [
+      "/home/juan/omnetpp-6.0pre11/samples/flora/experiments/raytracing-final-correction-20261112/source/src/raytracing2d",
+      "-u",
+      "Cmdenv",
+      "-n",
+      "../src:.",
+      "-f",
+      "/home/juan/omnetpp-6.0pre11/samples/flora/experiments/raytracing-final-correction-20261112/reviewer.ini",
+      "-c",
+      "Thesis_D03_NLoS_R1R2",
+      "-r",
+      "0",
+      "--result-dir=/home/juan/omnetpp-6.0pre11/samples/flora/experiments/raytracing-final-correction-20261112/raw"
+    ],
+    "returncode": 0,
+    "wall_seconds": 6.224338031839579,
+    "evidence_type": "new_execution_F"
+  },
+  {
+    "config": "Thesis_D04_NLoS_FULL",
+    "command": [
+      "/home/juan/omnetpp-6.0pre11/samples/flora/experiments/raytracing-final-correction-20261112/source/src/raytracing2d",
+      "-u",
+      "Cmdenv",
+      "-n",
+      "../src:.",
+      "-f",
+      "/home/juan/omnetpp-6.0pre11/samples/flora/experiments/raytracing-final-correction-20261112/reviewer.ini",
+      "-c",
+      "Thesis_D04_NLoS_FULL",
+      "-r",
+      "0",
+      "--result-dir=/home/juan/omnetpp-6.0pre11/samples/flora/experiments/raytracing-final-correction-20261112/raw"
+    ],
+    "returncode": 0,
+    "wall_seconds": 6.4745898940600455,
+    "evidence_type": "new_execution_F"
+  },
+  {
+    "config": "Thesis_F01_2400MHz",
+    "command": [
+      "/home/juan/omnetpp-6.0pre11/samples/flora/experiments/raytracing-final-correction-20261112/source/src/raytracing2d",
+      "-u",
+      "Cmdenv",
+      "-n",
+      "../src:.",
+      "-f",
+      "/home/juan/omnetpp-6.0pre11/samples/flora/experiments/raytracing-final-correction-20261112/reviewer.ini",
+      "-c",
+      "Thesis_F01_2400MHz",
+      "-r",
+      "0",
+      "--result-dir=/home/juan/omnetpp-6.0pre11/samples/flora/experiments/raytracing-final-correction-20261112/raw"
+    ],
+    "returncode": 0,
+    "wall_seconds": 6.273776553105563,
+    "evidence_type": "new_execution_F"
+  },
+  {
+    "config": "Thesis_F02_916MHz",
+    "command": [
+      "/home/juan/omnetpp-6.0pre11/samples/flora/experiments/raytracing-final-correction-20261112/source/src/raytracing2d",
+      "-u",
+      "Cmdenv",
+      "-n",
+      "../src:.",
+      "-f",
+      "/home/juan/omnetpp-6.0pre11/samples/flora/experiments/raytracing-final-correction-20261112/reviewer.ini",
+      "-c",
+      "Thesis_F02_916MHz",
+      "-r",
+      "0",
+      "--result-dir=/home/juan/omnetpp-6.0pre11/samples/flora/experiments/raytracing-final-correction-20261112/raw"
+    ],
+    "returncode": 0,
+    "wall_seconds": 6.424485525116324,
+    "evidence_type": "new_execution_F"
+  },
+  {
+    "config": "Thesis_G01_Angle90",
+    "command": [
+      "/home/juan/omnetpp-6.0pre11/samples/flora/experiments/raytracing-final-correction-20261112/source/src/raytracing2d",
+      "-u",
+      "Cmdenv",
+      "-n",
+      "../src:.",
+      "-f",
+      "/home/juan/omnetpp-6.0pre11/samples/flora/experiments/raytracing-final-correction-20261112/reviewer.ini",
+      "-c",
+      "Thesis_G01_Angle90",
+      "-r",
+      "0",
+      "--result-dir=/home/juan/omnetpp-6.0pre11/samples/flora/experiments/raytracing-final-correction-20261112/raw"
+    ],
+    "returncode": 0,
+    "wall_seconds": 6.2242892030626535,
+    "evidence_type": "new_execution_F"
+  },
+  {
+    "config": "Thesis_G02_Angle75",
+    "command": [
+      "/home/juan/omnetpp-6.0pre11/samples/flora/experiments/raytracing-final-correction-20261112/source/src/raytracing2d",
+      "-u",
+      "Cmdenv",
+      "-n",
+      "../src:.",
+      "-f",
+      "/home/juan/omnetpp-6.0pre11/samples/flora/experiments/raytracing-final-correction-20261112/reviewer.ini",
+      "-c",
+      "Thesis_G02_Angle75",
+      "-r",
+      "0",
+      "--result-dir=/home/juan/omnetpp-6.0pre11/samples/flora/experiments/raytracing-final-correction-20261112/raw"
+    ],
+    "returncode": 0,
+    "wall_seconds": 6.423517405986786,
+    "evidence_type": "new_execution_F"
+  },
+  {
+    "config": "Thesis_G03_Angle60",
+    "command": [
+      "/home/juan/omnetpp-6.0pre11/samples/flora/experiments/raytracing-final-correction-20261112/source/src/raytracing2d",
+      "-u",
+      "Cmdenv",
+      "-n",
+      "../src:.",
+      "-f",
+      "/home/juan/omnetpp-6.0pre11/samples/flora/experiments/raytracing-final-correction-20261112/reviewer.ini",
+      "-c",
+      "Thesis_G03_Angle60",
+      "-r",
+      "0",
+      "--result-dir=/home/juan/omnetpp-6.0pre11/samples/flora/experiments/raytracing-final-correction-20261112/raw"
+    ],
+    "returncode": 0,
+    "wall_seconds": 6.174494766630232,
+    "evidence_type": "new_execution_F"
+  },
+  {
+    "config": "Thesis_M50_FULL_50m",
+    "command": [
+      "/home/juan/omnetpp-6.0pre11/samples/flora/experiments/raytracing-final-correction-20261112/source/src/raytracing2d",
+      "-u",
+      "Cmdenv",
+      "-n",
+      "../src:.",
+      "-f",
+      "/home/juan/omnetpp-6.0pre11/samples/flora/experiments/raytracing-final-correction-20261112/reviewer.ini",
+      "-c",
+      "Thesis_M50_FULL_50m",
+      "-r",
+      "0",
+      "--result-dir=/home/juan/omnetpp-6.0pre11/samples/flora/experiments/raytracing-final-correction-20261112/raw"
+    ],
+    "returncode": 0,
+    "wall_seconds": 7.276311912108213,
+    "evidence_type": "new_execution_F"
+  },
+  {
+    "config": "Thesis_M25_FULL_25m",
+    "command": [
+      "/home/juan/omnetpp-6.0pre11/samples/flora/experiments/raytracing-final-correction-20261112/source/src/raytracing2d",
+      "-u",
+      "Cmdenv",
+      "-n",
+      "../src:.",
+      "-f",
+      "/home/juan/omnetpp-6.0pre11/samples/flora/experiments/raytracing-final-correction-20261112/reviewer.ini",
+      "-c",
+      "Thesis_M25_FULL_25m",
+      "-r",
+      "0",
+      "--result-dir=/home/juan/omnetpp-6.0pre11/samples/flora/experiments/raytracing-final-correction-20261112/raw"
+    ],
+    "returncode": 0,
+    "wall_seconds": 8.677622419316322,
+    "evidence_type": "new_execution_F"
+  },
+  {
+    "config": "Thesis_P01_TE_Coherent",
+    "command": [
+      "/home/juan/omnetpp-6.0pre11/samples/flora/experiments/raytracing-final-correction-20261112/source/src/raytracing2d",
+      "-u",
+      "Cmdenv",
+      "-n",
+      "../src:.",
+      "-f",
+      "/home/juan/omnetpp-6.0pre11/samples/flora/experiments/raytracing-final-correction-20261112/reviewer.ini",
+      "-c",
+      "Thesis_P01_TE_Coherent",
+      "-r",
+      "0",
+      "--result-dir=/home/juan/omnetpp-6.0pre11/samples/flora/experiments/raytracing-final-correction-20261112/raw"
+    ],
+    "returncode": 0,
+    "wall_seconds": 6.273714404087514,
+    "evidence_type": "new_execution_F"
+  },
+  {
+    "config": "Thesis_P02_TM_Coherent",
+    "command": [
+      "/home/juan/omnetpp-6.0pre11/samples/flora/experiments/raytracing-final-correction-20261112/source/src/raytracing2d",
+      "-u",
+      "Cmdenv",
+      "-n",
+      "../src:.",
+      "-f",
+      "/home/juan/omnetpp-6.0pre11/samples/flora/experiments/raytracing-final-correction-20261112/reviewer.ini",
+      "-c",
+      "Thesis_P02_TM_Coherent",
+      "-r",
+      "0",
+      "--result-dir=/home/juan/omnetpp-6.0pre11/samples/flora/experiments/raytracing-final-correction-20261112/raw"
+    ],
+    "returncode": 0,
+    "wall_seconds": 6.474907432682812,
+    "evidence_type": "new_execution_F"
+  },
+  {
+    "config": "Thesis_P03_TE_Incoherent",
+    "command": [
+      "/home/juan/omnetpp-6.0pre11/samples/flora/experiments/raytracing-final-correction-20261112/source/src/raytracing2d",
+      "-u",
+      "Cmdenv",
+      "-n",
+      "../src:.",
+      "-f",
+      "/home/juan/omnetpp-6.0pre11/samples/flora/experiments/raytracing-final-correction-20261112/reviewer.ini",
+      "-c",
+      "Thesis_P03_TE_Incoherent",
+      "-r",
+      "0",
+      "--result-dir=/home/juan/omnetpp-6.0pre11/samples/flora/experiments/raytracing-final-correction-20261112/raw"
+    ],
+    "returncode": 0,
+    "wall_seconds": 6.222447898238897,
+    "evidence_type": "new_execution_F"
+  },
+  {
+    "config": "Thesis_S_D1_Concrete",
+    "command": [
+      "/home/juan/omnetpp-6.0pre11/samples/flora/experiments/raytracing-final-correction-20261112/source/src/raytracing2d",
+      "-u",
+      "Cmdenv",
+      "-n",
+      "../src:.",
+      "-f",
+      "/home/juan/omnetpp-6.0pre11/samples/flora/experiments/raytracing-final-correction-20261112/reviewer.ini",
+      "-c",
+      "Thesis_S_D1_Concrete",
+      "-r",
+      "0",
+      "--result-dir=/home/juan/omnetpp-6.0pre11/samples/flora/experiments/raytracing-final-correction-20261112/raw"
+    ],
+    "returncode": 0,
+    "wall_seconds": 6.17450743727386,
+    "evidence_type": "new_execution_F"
+  },
+  {
+    "config": "Thesis_M10_FULL_10m",
+    "command": [
+      "/home/juan/omnetpp-6.0pre11/samples/flora/experiments/raytracing-final-correction-20261112/source/src/raytracing2d",
+      "-u",
+      "Cmdenv",
+      "-n",
+      "../src:.",
+      "-f",
+      "/home/juan/omnetpp-6.0pre11/samples/flora/experiments/raytracing-final-correction-20261112/reviewer.ini",
+      "-c",
+      "Thesis_M10_FULL_10m",
+      "-r",
+      "0",
+      "--result-dir=/home/juan/omnetpp-6.0pre11/samples/flora/experiments/raytracing-final-correction-20261112/raw"
+    ],
+    "returncode": 0,
+    "wall_seconds": 21.148826215881854,
+    "evidence_type": "new_execution_F"
+  },
+  {
+    "config": "Thesis_S_D1_Glass",
+    "command": [
+      "/home/juan/omnetpp-6.0pre11/samples/flora/experiments/raytracing-final-correction-20261112/source/src/raytracing2d",
+      "-u",
+      "Cmdenv",
+      "-n",
+      "../src:.",
+      "-f",
+      "/home/juan/omnetpp-6.0pre11/samples/flora/experiments/raytracing-final-correction-20261112/reviewer.ini",
+      "-c",
+      "Thesis_S_D1_Glass",
+      "-r",
+      "0",
+      "--result-dir=/home/juan/omnetpp-6.0pre11/samples/flora/experiments/raytracing-final-correction-20261112/raw"
+    ],
+    "returncode": 0,
+    "wall_seconds": 6.375654750969261,
+    "evidence_type": "new_execution_F"
+  },
+  {
+    "config": "Thesis_S_D1_Original",
+    "command": [
+      "/home/juan/omnetpp-6.0pre11/samples/flora/experiments/raytracing-final-correction-20261112/source/src/raytracing2d",
+      "-u",
+      "Cmdenv",
+      "-n",
+      "../src:.",
+      "-f",
+      "/home/juan/omnetpp-6.0pre11/samples/flora/experiments/raytracing-final-correction-20261112/reviewer.ini",
+      "-c",
+      "Thesis_S_D1_Original",
+      "-r",
+      "0",
+      "--result-dir=/home/juan/omnetpp-6.0pre11/samples/flora/experiments/raytracing-final-correction-20261112/raw"
+    ],
+    "returncode": 0,
+    "wall_seconds": 6.475935277994722,
+    "evidence_type": "new_execution_F"
+  },
+  {
+    "config": "Thesis_S_R1_Concrete",
+    "command": [
+      "/home/juan/omnetpp-6.0pre11/samples/flora/experiments/raytracing-final-correction-20261112/source/src/raytracing2d",
+      "-u",
+      "Cmdenv",
+      "-n",
+      "../src:.",
+      "-f",
+      "/home/juan/omnetpp-6.0pre11/samples/flora/experiments/raytracing-final-correction-20261112/reviewer.ini",
+      "-c",
+      "Thesis_S_R1_Concrete",
+      "-r",
+      "0",
+      "--result-dir=/home/juan/omnetpp-6.0pre11/samples/flora/experiments/raytracing-final-correction-20261112/raw"
+    ],
+    "returncode": 0,
+    "wall_seconds": 6.275032166857272,
+    "evidence_type": "new_execution_F"
+  },
+  {
+    "config": "Thesis_S_R1_Glass",
+    "command": [
+      "/home/juan/omnetpp-6.0pre11/samples/flora/experiments/raytracing-final-correction-20261112/source/src/raytracing2d",
+      "-u",
+      "Cmdenv",
+      "-n",
+      "../src:.",
+      "-f",
+      "/home/juan/omnetpp-6.0pre11/samples/flora/experiments/raytracing-final-correction-20261112/reviewer.ini",
+      "-c",
+      "Thesis_S_R1_Glass",
+      "-r",
+      "0",
+      "--result-dir=/home/juan/omnetpp-6.0pre11/samples/flora/experiments/raytracing-final-correction-20261112/raw"
+    ],
+    "returncode": 0,
+    "wall_seconds": 6.375355909112841,
+    "evidence_type": "new_execution_F"
+  },
+  {
+    "config": "Thesis_S_R1_Original",
+    "command": [
+      "/home/juan/omnetpp-6.0pre11/samples/flora/experiments/raytracing-final-correction-20261112/source/src/raytracing2d",
+      "-u",
+      "Cmdenv",
+      "-n",
+      "../src:.",
+      "-f",
+      "/home/juan/omnetpp-6.0pre11/samples/flora/experiments/raytracing-final-correction-20261112/reviewer.ini",
+      "-c",
+      "Thesis_S_R1_Original",
+      "-r",
+      "0",
+      "--result-dir=/home/juan/omnetpp-6.0pre11/samples/flora/experiments/raytracing-final-correction-20261112/raw"
+    ],
+    "returncode": 0,
+    "wall_seconds": 6.4242421123199165,
+    "evidence_type": "new_execution_F"
+  },
+  {
+    "config": "Thesis_S_R2_Concrete",
+    "command": [
+      "/home/juan/omnetpp-6.0pre11/samples/flora/experiments/raytracing-final-correction-20261112/source/src/raytracing2d",
+      "-u",
+      "Cmdenv",
+      "-n",
+      "../src:.",
+      "-f",
+      "/home/juan/omnetpp-6.0pre11/samples/flora/experiments/raytracing-final-correction-20261112/reviewer.ini",
+      "-c",
+      "Thesis_S_R2_Concrete",
+      "-r",
+      "0",
+      "--result-dir=/home/juan/omnetpp-6.0pre11/samples/flora/experiments/raytracing-final-correction-20261112/raw"
+    ],
+    "returncode": 0,
+    "wall_seconds": 6.2746859872713685,
+    "evidence_type": "new_execution_F"
+  },
+  {
+    "config": "Thesis_S_R2_Glass",
+    "command": [
+      "/home/juan/omnetpp-6.0pre11/samples/flora/experiments/raytracing-final-correction-20261112/source/src/raytracing2d",
+      "-u",
+      "Cmdenv",
+      "-n",
+      "../src:.",
+      "-f",
+      "/home/juan/omnetpp-6.0pre11/samples/flora/experiments/raytracing-final-correction-20261112/reviewer.ini",
+      "-c",
+      "Thesis_S_R2_Glass",
+      "-r",
+      "0",
+      "--result-dir=/home/juan/omnetpp-6.0pre11/samples/flora/experiments/raytracing-final-correction-20261112/raw"
+    ],
+    "returncode": 0,
+    "wall_seconds": 6.224198780953884,
+    "evidence_type": "new_execution_F"
+  },
+  {
+    "config": "Thesis_S_R2_Original",
+    "command": [
+      "/home/juan/omnetpp-6.0pre11/samples/flora/experiments/raytracing-final-correction-20261112/source/src/raytracing2d",
+      "-u",
+      "Cmdenv",
+      "-n",
+      "../src:.",
+      "-f",
+      "/home/juan/omnetpp-6.0pre11/samples/flora/experiments/raytracing-final-correction-20261112/reviewer.ini",
+      "-c",
+      "Thesis_S_R2_Original",
+      "-r",
+      "0",
+      "--result-dir=/home/juan/omnetpp-6.0pre11/samples/flora/experiments/raytracing-final-correction-20261112/raw"
+    ],
+    "returncode": 0,
+    "wall_seconds": 6.475134369917214,
+    "evidence_type": "new_execution_F"
+  },
+  {
+    "config": "Thesis_T00_LoS",
+    "command": [
+      "/home/juan/omnetpp-6.0pre11/samples/flora/experiments/raytracing-final-correction-20261112/source/src/raytracing2d",
+      "-u",
+      "Cmdenv",
+      "-n",
+      "../src:.",
+      "-f",
+      "/home/juan/omnetpp-6.0pre11/samples/flora/experiments/raytracing-final-correction-20261112/reviewer.ini",
+      "-c",
+      "Thesis_T00_LoS",
+      "-r",
+      "0",
+      "--result-dir=/home/juan/omnetpp-6.0pre11/samples/flora/experiments/raytracing-final-correction-20261112/raw"
+    ],
+    "returncode": 0,
+    "wall_seconds": 7.02689436590299,
+    "evidence_type": "new_execution_F"
+  },
+  {
+    "config": "Thesis_T01_LoS_R1",
+    "command": [
+      "/home/juan/omnetpp-6.0pre11/samples/flora/experiments/raytracing-final-correction-20261112/source/src/raytracing2d",
+      "-u",
+      "Cmdenv",
+      "-n",
+      "../src:.",
+      "-f",
+      "/home/juan/omnetpp-6.0pre11/samples/flora/experiments/raytracing-final-correction-20261112/reviewer.ini",
+      "-c",
+      "Thesis_T01_LoS_R1",
+      "-r",
+      "0",
+      "--result-dir=/home/juan/omnetpp-6.0pre11/samples/flora/experiments/raytracing-final-correction-20261112/raw"
+    ],
+    "returncode": 0,
+    "wall_seconds": 7.026346639264375,
+    "evidence_type": "new_execution_F"
+  },
+  {
+    "config": "Thesis_T02_LoS_R1R2",
+    "command": [
+      "/home/juan/omnetpp-6.0pre11/samples/flora/experiments/raytracing-final-correction-20261112/source/src/raytracing2d",
+      "-u",
+      "Cmdenv",
+      "-n",
+      "../src:.",
+      "-f",
+      "/home/juan/omnetpp-6.0pre11/samples/flora/experiments/raytracing-final-correction-20261112/reviewer.ini",
+      "-c",
+      "Thesis_T02_LoS_R1R2",
+      "-r",
+      "0",
+      "--result-dir=/home/juan/omnetpp-6.0pre11/samples/flora/experiments/raytracing-final-correction-20261112/raw"
+    ],
+    "returncode": 0,
+    "wall_seconds": 8.078428900800645,
+    "evidence_type": "new_execution_F"
+  },
+  {
+    "config": "Review_E4_C_R1R2",
+    "command": [
+      "/home/juan/omnetpp-6.0pre11/samples/flora/experiments/raytracing-final-correction-20261112/source/src/raytracing2d",
+      "-u",
+      "Cmdenv",
+      "-n",
+      "../src:.",
+      "-f",
+      "/home/juan/omnetpp-6.0pre11/samples/flora/experiments/raytracing-final-correction-20261112/reviewer.ini",
+      "-c",
+      "Review_E4_C_R1R2",
+      "-r",
+      "0",
+      "--result-dir=/home/juan/omnetpp-6.0pre11/samples/flora/experiments/raytracing-final-correction-20261112/raw"
+    ],
+    "returncode": 0,
+    "wall_seconds": 8.478673809207976,
+    "evidence_type": "new_execution_F"
+  }
+]

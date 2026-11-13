@@ -1,0 +1,12 @@
+[Warning: Directory already exists.] 
+[> In matlab_visibility_diagnostic (line 3)
+In run (line 112)] 
+          scene          installed_image_pipeline_target_found    installed_image_paths    target_first_facets_in_TX_viewshed    target_last_facets_in_RX_viewshed    three_actual_legs_occluded    explicit_last_facade_candidate_count    explicit_last_facade_candidate_positions    explicit_last_facade_candidate_ids
+    _________________    _____________________________________    _____________________    __________________________________    _________________________________    __________________________    ____________________________________    ________________________________________    __________________________________
+
+    {'A_original'   }                    false                              0                         1334    1335                          1×0 double                   false  false  false                         1                             24.172    22.579       1.5                           61                
+    {'B_e27_flip'   }                    false                              0                         1334    1335                          1×0 double                   false  false  false                         1                             24.172    22.579       1.5                           61                
+    {'C_all_flip'   }                    false                              0                         1334    1335                          1×0 double                   false  false  false                         1                             24.172    22.579       1.5                           60                
+    {'N_e30_reverse'}                    false                              0                         1334    1335                          1×0 double                   false  false  false                         1                             24.172    22.579       1.5                           61                
+    {'N_outward'    }                    false                              0                         1334    1335                          1×0 double                   false  false  false                         1                             24.172    22.579       1.5                           61                
+

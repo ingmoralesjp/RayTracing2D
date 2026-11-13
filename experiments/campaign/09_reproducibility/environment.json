@@ -1,0 +1,19 @@
+{
+  "platform": [
+    "Linux",
+    "juan-System-Product-Name",
+    "5.15.0-139-generic",
+    "#149~20.04.1-Ubuntu SMP Wed Apr 16 08:29:56 UTC 2025",
+    "x86_64",
+    "x86_64"
+  ],
+  "cpu": "AMD Ryzen 9 7950X 16-Core Processor",
+  "affinity_count": 32,
+  "compiler": "clang version 10.0.0-4ubuntu1 \nTarget: x86_64-pc-linux-gnu\nThread model: posix\nInstalledDir: /usr/bin\n",
+  "python": "3.13.5",
+  "numpy": "2.3.2",
+  "probe_flags": "clang++ -std=c++17 -O3 -DNDEBUG=1",
+  "probe_sha256": "323b32bfaaa96c6301ed339880b65d6c843e58692f42acd13a73214cefb4719e",
+  "timing_scope": "trace + evaluateAndSelect only; parsing/construction/output excluded; six repeats discard first, receiver panels four discard first",
+  "limitation": "fixed Dmax500 and 2 canonical links per building panel; panels with N receivers change spatial composition; not a universal complexity or cross-platform speed comparison"
+}

@@ -1,0 +1,7 @@
+[31m2026-11-12 18:03:40 WARN  [PLYMesh] "facades.ply": performance warning -- this file uses the ASCII PLY format, which is slow to parse. Consider converting it to the binary PLY format.
+A_original RX 24 target present 16
+[0m[31m2026-11-12 18:03:40 WARN  [PLYMesh] "facades.ply": performance warning -- this file uses the ASCII PLY format, which is slow to parse. Consider converting it to the binary PLY format.
+B_e27_flip RX 24 target present 16
+[0m[31m2026-11-12 18:03:40 WARN  [PLYMesh] "facades.ply": performance warning -- this file uses the ASCII PLY format, which is slow to parse. Consider converting it to the binary PLY format.
+C_all_flip RX 24 target present 16
+[0m

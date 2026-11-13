@@ -1,0 +1,96 @@
+{
+  "algorithm_changed": false,
+  "files": [
+    {
+      "path": "src/FrequencySweep2D.cc",
+      "sha256": "904d0ad2a89d6dc235e95adcff2db5da6b89defe34e5df02e57523419b13d5fa",
+      "identical_to_F_v2": true
+    },
+    {
+      "path": "src/FrequencySweep2D.h",
+      "sha256": "aa7f7d9d59d198fa5bd7dc504060a91d1dbf54dc0f4e0bca833d161e107c647a",
+      "identical_to_F_v2": true
+    },
+    {
+      "path": "src/Geometry2D.cc",
+      "sha256": "09df7fdabccfcc89644df73641f1dd225b9a4a8f3b7205e7b67dc00a29203e00",
+      "identical_to_F_v2": true
+    },
+    {
+      "path": "src/Geometry2D.h",
+      "sha256": "1de4fc0ac5dfeb6d838abffaa72ecfd76988fb112632e29f166c2b0e680fa4b8",
+      "identical_to_F_v2": true
+    },
+    {
+      "path": "src/GridEvaluator2D.cc",
+      "sha256": "9d111488bf53cba058eaa588d2ee27b4f9dea4026cb9764e3fcde7645181d038",
+      "identical_to_F_v2": true
+    },
+    {
+      "path": "src/GridEvaluator2D.h",
+      "sha256": "f004767c901b5bfdbeb761bc5782d937d43a4af7e6252a66ecf360f193e1f8ef",
+      "identical_to_F_v2": true
+    },
+    {
+      "path": "src/Materials2D.cc",
+      "sha256": "e89d5d5b051b28e977b65879027c0f4b1c5255ae54525ee07784ff01963c94d9",
+      "identical_to_F_v2": true
+    },
+    {
+      "path": "src/Materials2D.h",
+      "sha256": "27fe3083fbba70434fadf9dd6a57b63c1cdb24c422168686574d4a94741de854",
+      "identical_to_F_v2": true
+    },
+    {
+      "path": "src/OsmImporter2D.cc",
+      "sha256": "6046ad2d93380ee8410d7cde0c4b6a46ca35069920e34f15b8575b6194af599c",
+      "identical_to_F_v2": true
+    },
+    {
+      "path": "src/OsmImporter2D.h",
+      "sha256": "ca1980440be301fd4fe33d2c96755e4c73473e8fe8535025be26dc0a75367145",
+      "identical_to_F_v2": true
+    },
+    {
+      "path": "src/Propagation2D.cc",
+      "sha256": "43182773454279c479c84609e2eba220467dc9b54d65b9f9701ccbdec26f5b35",
+      "identical_to_F_v2": true
+    },
+    {
+      "path": "src/Propagation2D.h",
+      "sha256": "e903138f19afa8120b6abdf27003d52307fb8132751e92be1407e4de82f8193c",
+      "identical_to_F_v2": true
+    },
+    {
+      "path": "src/RayTracer2D.cc",
+      "sha256": "e6901a4921856eef97ee3c5ed9637437e1313d356fd4aa068b3fdf6527d9295a",
+      "identical_to_F_v2": true
+    },
+    {
+      "path": "src/RayTracer2D.h",
+      "sha256": "ca647210ab59ea9df7af23e6a12cdfd9b6ff84539a91eddc8c123e3e31934ec0",
+      "identical_to_F_v2": true
+    },
+    {
+      "path": "src/RayTracing2DModule.cc",
+      "sha256": "73150f3e9354b2847ac8bb15ada5c20ff813b193eafe80fb5847d0a439352793",
+      "identical_to_F_v2": true
+    },
+    {
+      "path": "src/RayTracing2DModule.h",
+      "sha256": "0e842e8c4c34aa6fc0328be04621a550f783c353f2499955b0e829f6004e7e7f",
+      "identical_to_F_v2": true
+    },
+    {
+      "path": "src/RayTracing2DModule.ned",
+      "sha256": "435a411ac7f53da689ba58b8f9bb21a273504c844dd1e9e480b5e2f913984419",
+      "identical_to_F_v2": true
+    },
+    {
+      "path": "src/RayTracingTypes.h",
+      "sha256": "97fef8d196167c7165fe8dd11aa40ac98e9f52f326df94ecbb59f4e28c5ac7b2",
+      "identical_to_F_v2": true
+    }
+  ],
+  "framework_VERSION": "1.6.1-exterior-domain"
+}

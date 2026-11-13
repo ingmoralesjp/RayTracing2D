@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<osm version="0.6" generator="RayTracing2D-v1.1-synthetic">
+  <node id="1" lat="23.000224830" lon="-105.999560356" />
+  <node id="2" lat="23.000224830" lon="-105.999267260" />
+  <node id="3" lat="23.000584558" lon="-105.999267260" />
+  <node id="4" lat="23.000584558" lon="-105.999560356" />
+  <way id="100">
+    <nd ref="1"/>
+    <nd ref="2"/>
+    <nd ref="3"/>
+    <nd ref="4"/>
+    <nd ref="1"/>
+    <tag k="building" v="yes"/>
+    <tag k="building:material" v="concrete"/>
+  </way>
+  <node id="5" lat="23.000134898" lon="-105.999120713" />
+  <node id="6" lat="23.000134898" lon="-105.998778767" />
+  <node id="7" lat="23.000449660" lon="-105.998778767" />
+  <node id="8" lat="23.000449660" lon="-105.999120713" />
+  <way id="101">
+    <nd ref="5"/>
+    <nd ref="6"/>
+    <nd ref="7"/>
+    <nd ref="8"/>
+    <nd ref="5"/>
+    <tag k="building" v="yes"/>
+    <tag k="building:material" v="brick"/>
+  </way>
+  <node id="9" lat="23.000269796" lon="-105.998583370" />
+  <node id="10" lat="23.000269796" lon="-105.998241425" />
+  <node id="11" lat="23.000674490" lon="-105.998241425" />
+  <node id="12" lat="23.000674490" lon="-105.998583370" />
+  <way id="102">
+    <nd ref="9"/>
+    <nd ref="10"/>
+    <nd ref="11"/>
+    <nd ref="12"/>
+    <nd ref="9"/>
+    <tag k="building" v="yes"/>
+    <tag k="building:material" v="glass"/>
+  </way>
+  <node id="13" lat="23.000944286" lon="-105.999462658" />
+  <node id="14" lat="23.000944286" lon="-105.999120713" />
+  <node id="15" lat="23.001304015" lon="-105.999120713" />
+  <node id="16" lat="23.001304015" lon="-105.999462658" />
+  <way id="103">
+    <nd ref="13"/>
+    <nd ref="14"/>
+    <nd ref="15"/>
+    <nd ref="16"/>
+    <nd ref="13"/>
+    <tag k="building" v="yes"/>
+    <tag k="building:material" v="masonry"/>
+  </way>
+  <node id="17" lat="23.000809388" lon="-105.998876466" />
+  <node id="18" lat="23.000809388" lon="-105.998534521" />
+  <node id="19" lat="23.001169116" lon="-105.998534521" />
+  <node id="20" lat="23.001169116" lon="-105.998876466" />
+  <way id="104">
+    <nd ref="17"/>
+    <nd ref="18"/>
+    <nd ref="19"/>
+    <nd ref="20"/>
+    <nd ref="17"/>
+    <tag k="building" v="yes"/>
+    <tag k="building:material" v="concrete"/>
+  </way>
+  <node id="21" lat="23.000944286" lon="-105.998290274" />
+  <node id="22" lat="23.000944286" lon="-105.997948329" />
+  <node id="23" lat="23.001348981" lon="-105.997948329" />
+  <node id="24" lat="23.001348981" lon="-105.998290274" />
+  <way id="105">
+    <nd ref="21"/>
+    <nd ref="22"/>
+    <nd ref="23"/>
+    <nd ref="24"/>
+    <nd ref="21"/>
+    <tag k="building" v="yes"/>
+    <tag k="building:material" v="wood"/>
+  </way>
+  <node id="25" lat="23.001393947" lon="-105.999902301" />
+  <node id="26" lat="23.001393947" lon="-105.999511507" />
+  <node id="27" lat="23.001663743" lon="-105.999511507" />
+  <node id="28" lat="23.001663743" lon="-105.999902301" />
+  <way id="106">
+    <nd ref="25"/>
+    <nd ref="26"/>
+    <nd ref="27"/>
+    <nd ref="28"/>
+    <nd ref="25"/>
+    <tag k="building" v="yes"/>
+    <tag k="building:material" v="metal"/>
+  </way>
+  <node id="29" lat="23.001438913" lon="-105.999169562" />
+  <node id="30" lat="23.001438913" lon="-105.998778767" />
+  <node id="31" lat="23.001753675" lon="-105.998778767" />
+  <node id="32" lat="23.001753675" lon="-105.999169562" />
+  <way id="107">
+    <nd ref="29"/>
+    <nd ref="30"/>
+    <nd ref="31"/>
+    <nd ref="32"/>
+    <nd ref="29"/>
+    <tag k="building" v="yes"/>
+    <tag k="building:material" v="concrete"/>
+  </way>
+  <node id="33" lat="23.001528845" lon="-105.998534521" />
+  <node id="34" lat="23.001528845" lon="-105.998094877" />
+  <node id="35" lat="23.001843607" lon="-105.998094877" />
+  <node id="36" lat="23.001843607" lon="-105.998534521" />
+  <way id="108">
+    <nd ref="33"/>
+    <nd ref="34"/>
+    <nd ref="35"/>
+    <nd ref="36"/>
+    <nd ref="33"/>
+    <tag k="building" v="yes"/>
+    <tag k="building:material" v="brick"/>
+  </way>
+</osm>

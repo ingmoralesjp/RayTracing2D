@@ -1,0 +1,335 @@
+[
+  {
+    "engine": "rt2d",
+    "scene": "RT2D_physical",
+    "batch": "receivers_directed",
+    "seed": "",
+    "receivers": 24,
+    "metadata": "results/rt2d/receivers_directed/metadata.json",
+    "evidence": "new_execution"
+  },
+  {
+    "engine": "rt2d",
+    "scene": "RT2D_physical",
+    "batch": "receivers_initial",
+    "seed": "",
+    "receivers": 17,
+    "metadata": "results/rt2d/receivers_initial/metadata.json",
+    "evidence": "new_execution"
+  },
+  {
+    "engine": "rt2d",
+    "scene": "RT2D_physical",
+    "batch": "receivers_transition",
+    "seed": "",
+    "receivers": 22,
+    "metadata": "results/rt2d/receivers_transition/metadata.json",
+    "evidence": "new_execution"
+  },
+  {
+    "engine": "matlab",
+    "scene": "A_original",
+    "batch": "receivers_directed",
+    "seed": "",
+    "receivers": 24,
+    "metadata": "results/matlab/A_original_receivers_directed/metadata.json",
+    "evidence": "new_execution"
+  },
+  {
+    "engine": "matlab",
+    "scene": "A_original",
+    "batch": "receivers_initial",
+    "seed": "",
+    "receivers": 17,
+    "metadata": "results/matlab/A_original_receivers_initial/metadata.json",
+    "evidence": "new_execution"
+  },
+  {
+    "engine": "matlab",
+    "scene": "A_original",
+    "batch": "receivers_transition",
+    "seed": "",
+    "receivers": 22,
+    "metadata": "results/matlab/A_original_receivers_transition/metadata.json",
+    "evidence": "new_execution"
+  },
+  {
+    "engine": "matlab",
+    "scene": "B_e27_flip",
+    "batch": "receivers_directed",
+    "seed": "",
+    "receivers": 24,
+    "metadata": "results/matlab/B_e27_flip_receivers_directed/metadata.json",
+    "evidence": "new_execution"
+  },
+  {
+    "engine": "matlab",
+    "scene": "B_e27_flip",
+    "batch": "receivers_initial",
+    "seed": "",
+    "receivers": 17,
+    "metadata": "results/matlab/B_e27_flip_receivers_initial/metadata.json",
+    "evidence": "new_execution"
+  },
+  {
+    "engine": "matlab",
+    "scene": "B_e27_flip",
+    "batch": "receivers_transition",
+    "seed": "",
+    "receivers": 22,
+    "metadata": "results/matlab/B_e27_flip_receivers_transition/metadata.json",
+    "evidence": "new_execution"
+  },
+  {
+    "engine": "matlab",
+    "scene": "C_all_flip",
+    "batch": "receivers_directed",
+    "seed": "",
+    "receivers": 24,
+    "metadata": "results/matlab/C_all_flip_receivers_directed/metadata.json",
+    "evidence": "new_execution"
+  },
+  {
+    "engine": "matlab",
+    "scene": "C_all_flip",
+    "batch": "receivers_initial",
+    "seed": "",
+    "receivers": 17,
+    "metadata": "results/matlab/C_all_flip_receivers_initial/metadata.json",
+    "evidence": "new_execution"
+  },
+  {
+    "engine": "matlab",
+    "scene": "C_all_flip",
+    "batch": "receivers_transition",
+    "seed": "",
+    "receivers": 22,
+    "metadata": "results/matlab/C_all_flip_receivers_transition/metadata.json",
+    "evidence": "new_execution"
+  },
+  {
+    "engine": "matlab",
+    "scene": "D_two_surfaces",
+    "batch": "receivers_initial",
+    "seed": "",
+    "receivers": 17,
+    "metadata": "results/matlab/D_two_surfaces_receivers_initial/metadata.json",
+    "evidence": "new_execution"
+  },
+  {
+    "engine": "matlab",
+    "scene": "E_two_buildings",
+    "batch": "receivers_initial",
+    "seed": "",
+    "receivers": 17,
+    "metadata": "results/matlab/E_two_buildings_receivers_initial/metadata.json",
+    "evidence": "new_execution"
+  },
+  {
+    "engine": "matlab",
+    "scene": "N_e30_reverse",
+    "batch": "receivers_initial",
+    "seed": "",
+    "receivers": 17,
+    "metadata": "results/matlab/N_e30_reverse_receivers_initial/metadata.json",
+    "evidence": "new_execution"
+  },
+  {
+    "engine": "matlab",
+    "scene": "N_outward",
+    "batch": "receivers_initial",
+    "seed": "",
+    "receivers": 17,
+    "metadata": "results/matlab/N_outward_receivers_initial/metadata.json",
+    "evidence": "new_execution"
+  },
+  {
+    "engine": "matlab",
+    "scene": "R_e30_refine1000",
+    "batch": "receivers_initial",
+    "seed": "",
+    "receivers": 17,
+    "metadata": "results/matlab/R_e30_refine1000_receivers_initial/metadata.json",
+    "evidence": "new_execution"
+  },
+  {
+    "engine": "matlab",
+    "scene": "R_e30_refine1000",
+    "batch": "receivers_transition",
+    "seed": "",
+    "receivers": 22,
+    "metadata": "results/matlab/R_e30_refine1000_receivers_transition/metadata.json",
+    "evidence": "new_execution"
+  },
+  {
+    "engine": "matlab",
+    "scene": "R_e30_refine100",
+    "batch": "receivers_initial",
+    "seed": "",
+    "receivers": 17,
+    "metadata": "results/matlab/R_e30_refine100_receivers_initial/metadata.json",
+    "evidence": "new_execution"
+  },
+  {
+    "engine": "sionna",
+    "scene": "A_original",
+    "batch": "receivers_directed",
+    "seed": 42,
+    "receivers": 24,
+    "metadata": "results/sionna/A_original_receivers_directed_seed42/metadata.json",
+    "evidence": "new_execution"
+  },
+  {
+    "engine": "sionna",
+    "scene": "A_original",
+    "batch": "receivers_initial",
+    "seed": 42,
+    "receivers": 17,
+    "metadata": "results/sionna/A_original_receivers_initial_seed42/metadata.json",
+    "evidence": "new_execution"
+  },
+  {
+    "engine": "sionna",
+    "scene": "A_original",
+    "batch": "receivers_transition",
+    "seed": 42,
+    "receivers": 22,
+    "metadata": "results/sionna/A_original_receivers_transition_seed42/metadata.json",
+    "evidence": "new_execution"
+  },
+  {
+    "engine": "sionna",
+    "scene": "A_original",
+    "batch": "receivers_transition",
+    "seed": 73,
+    "receivers": 22,
+    "metadata": "results/sionna/A_original_receivers_transition_seed73/metadata.json",
+    "evidence": "new_execution"
+  },
+  {
+    "engine": "sionna",
+    "scene": "B_e27_flip",
+    "batch": "receivers_directed",
+    "seed": 42,
+    "receivers": 24,
+    "metadata": "results/sionna/B_e27_flip_receivers_directed_seed42/metadata.json",
+    "evidence": "new_execution"
+  },
+  {
+    "engine": "sionna",
+    "scene": "B_e27_flip",
+    "batch": "receivers_initial",
+    "seed": 42,
+    "receivers": 17,
+    "metadata": "results/sionna/B_e27_flip_receivers_initial_seed42/metadata.json",
+    "evidence": "new_execution"
+  },
+  {
+    "engine": "sionna",
+    "scene": "B_e27_flip",
+    "batch": "receivers_transition",
+    "seed": 42,
+    "receivers": 22,
+    "metadata": "results/sionna/B_e27_flip_receivers_transition_seed42/metadata.json",
+    "evidence": "new_execution"
+  },
+  {
+    "engine": "sionna",
+    "scene": "C_all_flip",
+    "batch": "receivers_directed",
+    "seed": 42,
+    "receivers": 24,
+    "metadata": "results/sionna/C_all_flip_receivers_directed_seed42/metadata.json",
+    "evidence": "new_execution"
+  },
+  {
+    "engine": "sionna",
+    "scene": "C_all_flip",
+    "batch": "receivers_initial",
+    "seed": 42,
+    "receivers": 17,
+    "metadata": "results/sionna/C_all_flip_receivers_initial_seed42/metadata.json",
+    "evidence": "new_execution"
+  },
+  {
+    "engine": "sionna",
+    "scene": "C_all_flip",
+    "batch": "receivers_transition",
+    "seed": 42,
+    "receivers": 22,
+    "metadata": "results/sionna/C_all_flip_receivers_transition_seed42/metadata.json",
+    "evidence": "new_execution"
+  },
+  {
+    "engine": "sionna",
+    "scene": "D_two_surfaces",
+    "batch": "receivers_initial",
+    "seed": 42,
+    "receivers": 17,
+    "metadata": "results/sionna/D_two_surfaces_receivers_initial_seed42/metadata.json",
+    "evidence": "new_execution"
+  },
+  {
+    "engine": "sionna",
+    "scene": "E_two_buildings",
+    "batch": "receivers_initial",
+    "seed": 42,
+    "receivers": 17,
+    "metadata": "results/sionna/E_two_buildings_receivers_initial_seed42/metadata.json",
+    "evidence": "new_execution"
+  },
+  {
+    "engine": "sionna",
+    "scene": "N_e30_reverse",
+    "batch": "receivers_initial",
+    "seed": 42,
+    "receivers": 17,
+    "metadata": "results/sionna/N_e30_reverse_receivers_initial_seed42/metadata.json",
+    "evidence": "new_execution"
+  },
+  {
+    "engine": "sionna",
+    "scene": "N_outward",
+    "batch": "receivers_initial",
+    "seed": 42,
+    "receivers": 17,
+    "metadata": "results/sionna/N_outward_receivers_initial_seed42/metadata.json",
+    "evidence": "new_execution"
+  },
+  {
+    "engine": "sionna",
+    "scene": "R_e30_refine1000",
+    "batch": "receivers_initial",
+    "seed": 42,
+    "receivers": 17,
+    "metadata": "results/sionna/R_e30_refine1000_receivers_initial_seed42/metadata.json",
+    "evidence": "new_execution"
+  },
+  {
+    "engine": "sionna",
+    "scene": "R_e30_refine1000",
+    "batch": "receivers_transition",
+    "seed": 42,
+    "receivers": 22,
+    "metadata": "results/sionna/R_e30_refine1000_receivers_transition_seed42/metadata.json",
+    "evidence": "new_execution"
+  },
+  {
+    "engine": "sionna",
+    "scene": "R_e30_refine1000",
+    "batch": "receivers_transition",
+    "seed": 73,
+    "receivers": 22,
+    "metadata": "results/sionna/R_e30_refine1000_receivers_transition_seed73/metadata.json",
+    "evidence": "new_execution"
+  },
+  {
+    "engine": "sionna",
+    "scene": "R_e30_refine100",
+    "batch": "receivers_initial",
+    "seed": 42,
+    "receivers": 17,
+    "metadata": "results/sionna/R_e30_refine100_receivers_initial_seed42/metadata.json",
+    "evidence": "new_execution"
+  }
+]
