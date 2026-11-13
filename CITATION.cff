@@ -2,14 +2,15 @@ cff-version: 1.2.0
 message: "Please cite the accompanying manuscript when using this research material."
 type: software
 title: RayTracing2D
+repository-code: https://github.com/ingmoralesjp/RayTracing2D
 authors:
   - family-names: Morales-Alvarez
     given-names: Juan Pablo
     orcid: https://orcid.org/0000-0003-0033-429X
   - family-names: Rodríguez-Abdalá
-    given-names: Víktor Iván
-  - family-names: Dávila González
-    given-names: Edgar Ramón Apolinar
+    given-names: Víktor I.
+  - family-names: Gómez-Rodríguez
+    given-names: José Ricardo
 preferred-citation:
   type: unpublished
   title: "A deterministic 2D ray-tracing framework for OMNeT++: verification and controlled cross-solver evaluation"
@@ -18,7 +19,7 @@ preferred-citation:
       given-names: Juan Pablo
       orcid: https://orcid.org/0000-0003-0033-429X
     - family-names: Rodríguez-Abdalá
-      given-names: Víktor Iván
-    - family-names: Dávila González
-      given-names: Edgar Ramón Apolinar
+      given-names: Víktor I.
+    - family-names: Gómez-Rodríguez
+      given-names: José Ricardo
   year: 2026
